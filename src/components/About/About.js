@@ -47,7 +47,7 @@ function About() {
           </tr>
           <tr>
             <td>メンバー</td>
-            <td>約109名(2022年度)</td>
+            <td>約115名(2022年度)</td>
           </tr>
           <tr>
             <td>広報支援機構</td>
