@@ -25,7 +25,7 @@ function Home() {
                 <br></br>
                 <strong className="main-name"> Tech.Uni</strong>
               </h1>
-              <div style={{ padding: 50, textAlign: "center" }}>
+              <div style={{ padding: 50, height:"180px" ,textAlign: "center" }}>
                 <Type />
               </div>
             </Col>
