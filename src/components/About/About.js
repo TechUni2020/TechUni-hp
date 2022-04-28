@@ -1,12 +1,9 @@
 import React from "react";
 import { Container, Table } from "react-bootstrap";
 import homeLogo from "../../Assets/TechUni.svg";
-import {
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillInstagram, AiOutlineTwitter, } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
-import {  BiBookOpen } from "react-icons/bi";
+import { BiBookOpen } from "react-icons/bi";
 
 function About() {
   return (
@@ -81,10 +78,10 @@ function About() {
       <p style={{ color: "black" }}>
       Here are  history of 'Tech.Uni' and its activities..
       </p>
-      <Button variant="enroll" href="/history/2020" target="_blank">
+      <Button variant="enroll" href="/history/2020">
         <BiBookOpen /> &nbsp;2020年度
       </Button>
-      <Button variant="enroll" href="/history/2021" target="_blank">
+      <Button variant="enroll" href="/history/2021">
         <BiBookOpen /> &nbsp;2021年度
       </Button>
       </Container>
