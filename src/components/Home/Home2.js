@@ -1,8 +1,8 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import homeLogo from "../../Assets/TechUni.svg";
-import {AiFillGithub, AiOutlineTwitter,} from "react-icons/ai";
-import {FaInstagram} from "react-icons/fa";
+import { AiFillGithub, AiOutlineTwitter, } from "react-icons/ai";
+import { FaInstagram } from "react-icons/fa";
 
 function Home2() {
   return (

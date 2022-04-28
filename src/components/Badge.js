@@ -1,5 +1,5 @@
 import React from 'react';
-import {Badge as BootstrapBadge} from 'react-bootstrap';
+import { Badge as BootstrapBadge } from 'react-bootstrap';
 
 function Badge(props) {
   const {

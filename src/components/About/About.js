@@ -1,9 +1,9 @@
 import React from "react";
-import {Container, Table} from "react-bootstrap";
+import { Container, Table } from "react-bootstrap";
 import homeLogo from "../../Assets/TechUni.svg";
-import {AiFillInstagram, AiOutlineTwitter,} from "react-icons/ai";
+import { AiFillInstagram, AiOutlineTwitter, } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
-import {BiBookOpen} from "react-icons/bi";
+import { BiBookOpen } from "react-icons/bi";
 
 function About() {
   return (
