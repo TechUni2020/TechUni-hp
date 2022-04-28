@@ -21,20 +21,20 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TechUni}
-              isBlog={false}
+              isCode={true}
               title="Tech.Uni Webサイト"
-              description="Tech.Uniのwebサイトです。"
+              description="プログラミング研究会Tech.Uniのホームページ。メンバーとのチーム開発で日々アップデートを行う予定です"
               category="webサイト"
               frontend="React"
               author="井手翔陽"
-              link=""
+              link="https://github.com/TechUni2020/TechUni-hp"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ProTask}
-              isBlog={false}
+              isCode={false}
               title="ProTask"
               description="Lunaでの課題管理に不安や不満を持ち一ヶ月で開発。 リリース1ヶ月で1,000人ユーザーが利用を開始。 現在利用者数は3,500人を超える。"
               category="スマホアプリ"
@@ -48,7 +48,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ProTain}
-              isBlog={false}
+              isCode={false}
               title="ProTain"
               description="近年新型コロナウイルス蔓延により「筋トレ」が流行した。 そこでTwitterやInstagramではなく筋トレに焦点を当てたSNS、いわば情報共有の場・モチベーション維持を支援するSNSアプリが欲しいと考え一ヶ月で開発。"
               category="スマホアプリ"
@@ -61,7 +61,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TechInterview}
-              isBlog={false}
+              isCode={true}
               title="Tech.面接"
               description="2021年JPHacksにてAward進出を果たし、クラスメソッド賞を獲得。AIによる表情認識/音声認識を用いて面接練習の効率化/アップデートを図る"
               category="webアプリ"
@@ -75,7 +75,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TechBoard}
-              isBlog={false}
+              isCode={false}
               title="Tech.Board"
               description="オンラインホワイトボードwebアプリ。Tech.Uni内で使用できるツールとして開発。"
               category="webアプリ"
