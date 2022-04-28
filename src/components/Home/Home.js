@@ -22,6 +22,7 @@ function Home() {
               </h1>
               <h1 className="heading-name">
                 プログラミング研究会
+                <br></br>
                 <strong className="main-name"> Tech.Uni</strong>
               </h1>
               <div style={{ padding: 50, textAlign: "center" }}>

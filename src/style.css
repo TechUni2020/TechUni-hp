@@ -279,7 +279,13 @@ button:focus {
 .heading-name {
   color: #0c0513;
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+}
+
+@media (max-width: 767px) {
+  .heading-name {
+    color: #0c0513;
+    font-size: 1.5em !important;
+  }
 }
 
 .main-name {
@@ -300,7 +306,6 @@ button:focus {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
-    position: absolute !important;
   }
   .Typewriter__cursor {
     display: none !important;
@@ -337,6 +342,14 @@ button:focus {
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
+}
+
+@media (max-width: 767px) {
+  .home-about-body {
+    padding-top: 50px;
+    font-size: 1em !important;
+    text-align: left;
+  }
 }
 
 .home-about-social {
@@ -419,6 +432,19 @@ button:focus {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px #78bdb5 !important;
+}
+
+@media (max-width: 767px) {
+  .button-card-view {
+    box-shadow: 0 4px 5px 3px #9cbfbb !important;
+    color: black !important;
+    background-color: transparent !important;
+    opacity: 0.9 !important;
+    transition: all 0.5s ease 0s !important;
+    height: 100% !important;
+    width: 70% !important;
+    margin: 0 auto; 
+  }
 }
 
 .btn-about {
