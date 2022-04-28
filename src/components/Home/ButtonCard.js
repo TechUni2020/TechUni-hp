@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { BiLinkExternal, BiDesktop } from "react-icons/bi";
+import {BiDesktop, BiLinkExternal} from "react-icons/bi";
 
 function ButtonCard(props) {
   return (

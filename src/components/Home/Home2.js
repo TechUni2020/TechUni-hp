@@ -1,13 +1,8 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import homeLogo from "../../Assets/TechUni.svg";
-import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {AiFillGithub, AiOutlineTwitter,} from "react-icons/ai";
+import {FaInstagram} from "react-icons/fa";
 
 function Home2() {
   return (
@@ -52,7 +47,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1 class="text-dark">FIND ME ON</h1>
+            <h1 class="text-dark">FIND US ON</h1>
             <p class="text-dark">
               Feel free to <span className="purple">connect </span>with me
             </p>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import ProTain from "../../Assets/Projects/ProTain.png";
 import ProTask from "../../Assets/Projects/ProTask.png";
