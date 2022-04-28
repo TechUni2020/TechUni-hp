@@ -29,7 +29,7 @@ function ProjectCards(props) {
         </Card.Text>
         <Button variant="primary" href={props.link} target="_blank" >
           <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "View Project"}
+          {props.isCode ? "View SourceCode" : "View Project"}
         </Button>
       </Card.Body>
       <Card.Footer className="text-muted">開発者：{props.author}</Card.Footer>
