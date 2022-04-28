@@ -16,18 +16,18 @@ ReactDOM.render(
             <Routes>
                 <Route path="/" element={<App/>}>
                     <Route index element={<Home/>}/>
-                    <Route path="project" element={<Projects />} />
-                    <Route path="about" element={<About />} />
-                    <Route path="history"  element={(
+                    <Route path="project" element={<Projects/>}/>
+                    <Route path="about" element={<About/>}/>
+                    <Route path="history" element={(
                         <div>
-                            <Outlet />
+                            <Outlet/>
                         </div>
                     )}>
-                        <Route path="2020" element={<History2020 />} />
-                        <Route path="2021" element={<History2021 />} />
+                        <Route path="2020" element={<History2020/>}/>
+                        <Route path="2021" element={<History2021/>}/>
                     </Route>
-                    <Route path="sponser" element={<Sponser />} />
-                    <Route path="*" element={<Home />} />
+                    <Route path="sponser" element={<Sponser/>}/>
+                    <Route path="*" element={<Home/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>

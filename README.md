@@ -1,4 +1,5 @@
 # Tech.Uni website
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -21,7 +22,8 @@
 npm -v
 ```
 
-npm が入っていなかった方は Node.js も入っていないと思うので、まずは Node.js をインストールしてください。インストール方法はたくさんありますが、[VOLTA](https://volta.sh/)をオススメしております。VOLTA のサイトを参考に Node.js をインストールしてください。
+npm が入っていなかった方は Node.js も入っていないと思うので、まずは Node.js
+をインストールしてください。インストール方法はたくさんありますが、[VOLTA](https://volta.sh/)をオススメしております。VOLTA のサイトを参考に Node.js をインストールしてください。
 
 npm は Node.js とともに配布されるため、Node.js をインストールしたら npm も自動的にインストールされます。
 
@@ -42,7 +44,8 @@ npm は Node.js とともに配布されるため、Node.js をインストー�
 git clone https://github.com/TechUni2020/TechUni-hp.git
 ```
 
-VS Code で行う場合は、リポジトリをクローンする（英語だと Clone Repository）というボタンがあるので、それをクリックしていただき、`https://github.com/TechUni2020/TechUni-hp.git` を入力してエンターを押してください。
+VS Code で行う場合は、リポジトリをクローンする（英語だと Clone
+Repository）というボタンがあるので、それをクリックしていただき、`https://github.com/TechUni2020/TechUni-hp.git` を入力してエンターを押してください。
 
 ### ④ 依存関係のインストール
 
@@ -57,15 +60,19 @@ yarn install
 開発を行う場合
 
 ```
-yarn run start // localhost:3000 で立ち上がります
+yarn start // localhost:3000 で立ち上がります
 ```
 
 本番の動作確認を行う場合
 
 ```
-yarn run build // bundleファイルであるdist/が生成されます
+yarn build // bundleファイルであるbuild/が生成されます
 ```
 
+様々なIDEでスタイルを統一するために.editorconfigを使っています
+各自のIDEでconfigを適用する方法を調べてください
+
+例 : VS code - https://rfs.jp/sb/vsc/editorconfig.html
 
 ## Contributors ✨
 
@@ -79,7 +86,7 @@ Thanks goes to these wonderful people
      <td align="center"><a href="https://twitter.com/shouhi_ide"><img src="https://user-images.githubusercontent.com/63713624/123041698-9f3c9b00-d430-11eb-8faf-e98e27e347db.jpg" width="100px;" alt=""/><br /><sub><b>井手翔陽</b></sub></a><br /><a href="https://github.com/TechUni2020/TechUni-hp/commits?author=shouhi" title="Documentation">📖</a> <a href="#projectManagement-shouhi" title="Project Management">📆</a>
     <td align="center"><a href="https://twitter.com/tayzar133"><img src="https://avatars.githubusercontent.com/u/62434815?v=4" width="100px;" alt=""/><br /><sub><b>テザー ナイ ウィン</b></sub></a><br /><a href="" title="Documentation">📖</a> <a href="#projectManagement-
 tayzar-v98" title="Project Management">📆</a>
-   
+
 </table>
 
 <!-- markdownlint-restore -->
