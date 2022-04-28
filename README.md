@@ -60,14 +60,19 @@ yarn install
 開発を行う場合
 
 ```
-yarn run start // localhost:3000 で立ち上がります
+yarn start // localhost:3000 で立ち上がります
 ```
 
 本番の動作確認を行う場合
 
 ```
-yarn run build // bundleファイルであるdist/が生成されます
+yarn build // bundleファイルであるbuild/が生成されます
 ```
+
+様々なIDEでスタイルを統一するために.editorconfigを使っています
+各自のIDEでconfigを適用する方法を調べてください
+
+例 : VS code - https://rfs.jp/sb/vsc/editorconfig.html
 
 ## Contributors ✨
 
