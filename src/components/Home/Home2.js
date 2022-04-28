@@ -15,7 +15,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: "2.5em" }}>
               Tech.Uniとは？？ 
             </h1>
             <h2><span className="purple"> INTRODUCE </span> OURSELF</h2>
@@ -31,7 +31,7 @@ function Home2() {
               現在
               &nbsp;
               <i>
-                <b className="purple">メンバー総数109名 企業提携社数11社 全国大会出場経験有り</b> 
+                <b className="purple">メンバー総数115名 企業提携社数11社 全国大会出場経験有り</b> 
               </i>
               &nbsp; と実績を積み重ねて
               <br />
