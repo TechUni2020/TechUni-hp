@@ -8,10 +8,7 @@
 
 - [React](https://ja.reactjs.org/)
 - [Bootstrap](https://getbootstrap.jp/)
-- [Jest](https://jestjs.io/ja/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-
+- [vite](https://vitejs.dev/)
 ## セットアップ
 
 ### ① npm の準備
