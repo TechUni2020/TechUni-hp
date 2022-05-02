@@ -42,6 +42,6 @@ jobs:
       with:
         server: ${{ secrets.STAGING_SERVER }}
         username: ${{ secrets.STAGING_USERNAME }}
-        password: ${{ secrets.ftp_password }}
+        password: ${{ secrets.FTP_PASSWORD }}
         local-dir: "./dist/"
-        server-dir: format('/{0}/', $github.head_ref)
+        server-dir: ${{ format('/{0}/', github.head_ref) }}
