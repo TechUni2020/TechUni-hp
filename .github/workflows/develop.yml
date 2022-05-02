@@ -4,8 +4,6 @@
 name: Develop Workflow
 
 on:
-  push:
-    branches: [ develop ]
   pull_request:
     branches: [ develop ]
 
@@ -40,7 +38,6 @@ jobs:
     - name: build project
       run: yarn build
     - name: 📂 Sync files
-      if: github.head_ref != null
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: ${{ secrets.STAGING_SERVER }}
@@ -48,12 +45,3 @@ jobs:
         password: ${{ secrets.ftp_password }}
         local-dir: "./dist/"
         server-dir: format('/{0}/', $github.head_ref)
-    - name: 📂 Sync files
-      if: github.head_ref == null
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
-      with:
-        server: ${{ secrets.STAGING_SERVER }}
-        username: ${{ secrets.STAGING_USERNAME }}
-        password: ${{ secrets.ftp_password }}
-        local-dir: "./dist/"
-        server-dir: "/develop/"
