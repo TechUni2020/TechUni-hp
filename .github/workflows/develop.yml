@@ -1,7 +1,7 @@
 name: Develop Workflow
 
 on:
-  pull_request:
+  push:
     branches: [ develop ]
 
 jobs:
