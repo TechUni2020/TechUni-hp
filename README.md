@@ -8,7 +8,11 @@
 
 - [React](https://ja.reactjs.org/)
 - [Bootstrap](https://getbootstrap.jp/)
-- [vite](https://vitejs.dev/)
+- [Jest](https://jestjs.io/ja/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Vite](https://vitejs.dev/)
+
 ## セットアップ
 
 ### ① npm の準備
@@ -24,7 +28,14 @@ npm が入っていなかった方は Node.js も入っていないと思うの�
 
 npm は Node.js とともに配布されるため、Node.js をインストールしたら npm も自動的にインストールされます。
 
-### ② リポジトリのクローン
+### ② VS Code 拡張機能のインストール
+
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+上記の拡張機能をいれることで、保存時に自動で ESLint(+Prettier) が走り、コードを整形してくれます。
+
+### ③ リポジトリのクローン
 
 このリポジトリをローカル環境にクローンしてください。
 

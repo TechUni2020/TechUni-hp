@@ -12,7 +12,7 @@ import Sponser from "./components/Sponser/Sponser";
 
 ReactDOM.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename={import.meta.env.VITE_PUBLIC_URL}>
             <Routes>
                 <Route path="/" element={<App/>}>
                     <Route index element={<Home/>}/>
