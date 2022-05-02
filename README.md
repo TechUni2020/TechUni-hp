@@ -11,6 +11,7 @@
 - [Jest](https://jestjs.io/ja/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+- [Vite](https://vitejs.dev/)
 
 ## セットアップ
 

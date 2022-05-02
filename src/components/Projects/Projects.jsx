@@ -26,7 +26,7 @@ function Projects() {
               description="プログラミング研究会Tech.Uniのホームページ。メンバーとのチーム開発で日々アップデートを行う予定です"
               category="webサイト"
               frontend="React"
-              author="井手翔陽"
+              author="井手翔陽、テザー"
               link="https://github.com/TechUni2020/TechUni-hp"
             />
           </Col>
