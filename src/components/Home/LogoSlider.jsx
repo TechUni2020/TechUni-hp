@@ -1,14 +1,14 @@
 import React from "react";
-import SponserLogo from "./SponserLogoSlider";
+import SponsorLogo from "./SponsorLogoSlider";
 
 function LogoSlider() {
     return (
         <section className="logo-slider-section">
           <div className="logo-slider-container">
-            <h3 className="sponser-title">
+            <h3 className="sponsor-title">
               <span>Sponsored by</span>{" "}
             </h3>
-            <SponserLogo />
+            <SponsorLogo />
           </div>
         </section>
       );

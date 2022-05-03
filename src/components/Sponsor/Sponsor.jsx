@@ -25,7 +25,7 @@ function Sponsor() {
                 <Container fluid className="resume-section">
                     {/* <Particle /> */}
                     <h1 className="project-heading">
-                        Our <strong className="purple">Sponsor </strong>
+                        Our <strong className="purple">Sponsor</strong>
                     </h1>
                     <p style={{color: "black"}}>
                         Here are about our Sponsor.
