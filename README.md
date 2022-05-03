@@ -8,9 +8,6 @@
 
 - [React](https://ja.reactjs.org/)
 - [Bootstrap](https://getbootstrap.jp/)
-- [Jest](https://jestjs.io/ja/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
 - [Vite](https://vitejs.dev/)
 
 ## セットアップ
@@ -74,6 +71,37 @@ yarn build // bundleファイルであるbuild/が生成されます
 各自のIDEでconfigを適用する方法を調べてください
 
 例 : VS code - https://rfs.jp/sb/vsc/editorconfig.html
+
+
+## Git ブランチルール
+
+`main`
+
+- マージされると本番に自動反映されます。
+
+`develop`
+
+- developにマージしたら[ステージング環境](https://develop.techuni.org/)よりご確認ください
+※user名/パスワードは会長・副会長に聞いてください
+- 本番反映前に確認するための環境（ステージング環境）。
+- 常駐しているブランチで、feature からの変更を受け付け、main にマージする。
+
+
+`hotfix`
+
+- 本番で発生した緊急のバグに対処するためのブランチ。
+- 必ず main から分岐し、main と develop にマージする。
+
+`feature/あなたのGitHub名_*`
+
+- 開発にはここを用いる。
+- 必ず develop から分岐し、develop にマージする。
+- 「あなたの GitHub 名」にはアカウント名を入力。
+- `*` は開発するものを簡易的に記入。
+- 例: feature/shouhi_add-about-page
+
+`main`, `develop`, `hotfix` に直接 push してはいけません。基本的に皆さんが触って良いのは `feature/あなたのGitHub名_*` ブランチだけです。
+
 
 ## Contributors ✨
 
