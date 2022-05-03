@@ -18,28 +18,28 @@ function SponserLogoSlider() {
         <>
     <SlideContainer contentWidth={1600} initialOffsetX={0}>
       <SliderItem width={150}>
-        <SponserLogo logo={ABABA} maxHeight="150px"></SponserLogo>
+        <SponserLogo logo={ABABA} maxHeight="100px"></SponserLogo>
       </SliderItem>
       <SliderItem width={150}>
-        <SponserLogo logo={Cookpad} maxHeight="150px"></SponserLogo>
+        <SponserLogo logo={Cookpad} maxHeight="100px"></SponserLogo>
       </SliderItem>
       <SliderItem width={150}>
-        <SponserLogo logo={GeekSalon} maxHeight="150px"></SponserLogo>
+        <SponserLogo logo={GeekSalon} maxHeight="100px"></SponserLogo>
       </SliderItem>
       <SliderItem width={150}>
         <SponserLogo logo={Givery} maxHeight="150px"></SponserLogo>
       </SliderItem>
       <SliderItem width={150}>
-        <SponserLogo logo={Kobe} maxHeight="150px"></SponserLogo>
+        <SponserLogo logo={Kobe} maxHeight="100px"></SponserLogo>
       </SliderItem>
       <SliderItem width={150}>
-        <SponserLogo logo={Mynavi} maxHeight="150px"></SponserLogo>
+        <SponserLogo logo={Mynavi} maxHeight="100px"></SponserLogo>
       </SliderItem>
       <SliderItem width={150}>
         <SponserLogo logo={NextKeyman} maxHeight="150px"></SponserLogo>
       </SliderItem>
       <SliderItem width={150}>
-        <SponserLogo logo={Novavarsity} maxHeight="150px"></SponserLogo>
+        <SponserLogo logo={Novavarsity} maxHeight="100px"></SponserLogo>
       </SliderItem>
       <SliderItem width={150}>
         <SponserLogo logo={Axross} maxHeight="150px"></SponserLogo>
