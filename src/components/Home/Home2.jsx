@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import homeLogo from "../../Assets/TechUni.svg";
 import { AiFillGithub, AiOutlineTwitter, } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
+import LogoSlider from "./LogoSlider"
 
 function Home2() {
   return (
@@ -45,6 +46,7 @@ function Home2() {
               />
           </Col>
         </Row>
+        <LogoSlider></LogoSlider>
         <Row>
           <Col md={12} className="home-about-social">
             <h1 class="text-dark">FIND US ON</h1>

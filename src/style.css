@@ -422,6 +422,56 @@ button:focus {
 }
 
 /* --------- */
+/* LogoSlider */
+/* --------- */
+.logo-slider-section {
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+}
+@media (max-width: 767px) {
+    .logo-slider-section {
+        gap: 8rem;
+    }
+}
+
+.logo-slider-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-container {
+    overflow-x: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    pointer-events: none;
+}
+
+.slider-container-ref{
+    display: none;
+}
+
+.slider-container-ref-enabled {
+    display: inline-block;
+}
+
+.slider-item {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.sponser-title {
+    font-size: 1.875rem !important;
+    margin-bottom: 10px !important;
+    font-weight: bold !important;
+    text-align: center;
+    color: black
+}
+
+/* --------- */
 /* ButtonCard */
 /* --------- */
 
