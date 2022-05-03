@@ -1,58 +1,58 @@
 import React from "react";
 import SlideContainer, { SliderItem } from "./slider";
-import SponserLogo from "../Sponser/SponserLogo";
-import ABABA from "../../Assets/Sponser/Ababa.png";
-import Cookpad from "../../Assets/Sponser/Cookpad.png";
-import GeekSalon from "../../Assets/Sponser/GeekSalon.png";
-import Givery from "../../Assets/Sponser/Givery.png";
-import Kobe from "../../Assets/Sponser/Kobe.png";
-import Mynavi from "../../Assets/Sponser/Mynavi.png";
-import NextKeyman from "../../Assets/Sponser/NextKeyman.png";
-import Novavarsity from "../../Assets/Sponser/Novavarsity.png";
-import Axross from "../../Assets/Sponser/Axross.png";
-import TechBowl from "../../Assets/Sponser/TechBowl.png";
-import LA10Ys from "../../Assets/Sponser/LA10Ys.png";
+import SponsorLogo from "../Sponsor/SponsorLogo";
+import ABABA from "../../Assets/Sponsor/Ababa.png";
+import Cookpad from "../../Assets/Sponsor/Cookpad.png";
+import GeekSalon from "../../Assets/Sponsor/GeekSalon.png";
+import Givery from "../../Assets/Sponsor/Givery.png";
+import Kobe from "../../Assets/Sponsor/Kobe.png";
+import Mynavi from "../../Assets/Sponsor/Mynavi.png";
+import NextKeyman from "../../Assets/Sponsor/NextKeyman.png";
+import Novavarsity from "../../Assets/Sponsor/Novavarsity.png";
+import Axross from "../../Assets/Sponsor/Axross.png";
+import TechBowl from "../../Assets/Sponsor/TechBowl.png";
+import LA10Ys from "../../Assets/Sponsor/LA10Ys.png";
 
-function SponserLogoSlider() {
+function SponsorLogoSlider() {
     return(
         <>
     <SlideContainer contentWidth={1600} initialOffsetX={0}>
       <SliderItem width={150}>
-        <SponserLogo logo={ABABA} maxHeight="100px"></SponserLogo>
+        <SponsorLogo logo={ABABA} maxHeight="100px"></SponsorLogo>
       </SliderItem>
       <SliderItem width={150}>
-        <SponserLogo logo={Cookpad} maxHeight="100px"></SponserLogo>
+        <SponsorLogo logo={Cookpad} maxHeight="100px"></SponsorLogo>
       </SliderItem>
       <SliderItem width={150}>
-        <SponserLogo logo={GeekSalon} maxHeight="100px"></SponserLogo>
+        <SponsorLogo logo={GeekSalon} maxHeight="100px"></SponsorLogo>
       </SliderItem>
       <SliderItem width={150}>
-        <SponserLogo logo={Givery} maxHeight="150px"></SponserLogo>
+        <SponsorLogo logo={Givery} maxHeight="150px"></SponsorLogo>
       </SliderItem>
       <SliderItem width={150}>
-        <SponserLogo logo={Kobe} maxHeight="100px"></SponserLogo>
+        <SponsorLogo logo={Kobe} maxHeight="100px"></SponsorLogo>
       </SliderItem>
       <SliderItem width={150}>
-        <SponserLogo logo={Mynavi} maxHeight="100px"></SponserLogo>
+        <SponsorLogo logo={Mynavi} maxHeight="100px"></SponsorLogo>
       </SliderItem>
       <SliderItem width={150}>
-        <SponserLogo logo={NextKeyman} maxHeight="150px"></SponserLogo>
+        <SponsorLogo logo={NextKeyman} maxHeight="150px"></SponsorLogo>
       </SliderItem>
       <SliderItem width={150}>
-        <SponserLogo logo={Novavarsity} maxHeight="100px"></SponserLogo>
+        <SponsorLogo logo={Novavarsity} maxHeight="100px"></SponsorLogo>
       </SliderItem>
       <SliderItem width={150}>
-        <SponserLogo logo={Axross} maxHeight="150px"></SponserLogo>
+        <SponsorLogo logo={Axross} maxHeight="150px"></SponsorLogo>
       </SliderItem>
       <SliderItem width={150}>
-        <SponserLogo logo={TechBowl} maxHeight="150px"></SponserLogo>
+        <SponsorLogo logo={TechBowl} maxHeight="150px"></SponsorLogo>
       </SliderItem>
       <SliderItem width={150}>
-        <SponserLogo logo={LA10Ys} maxHeight="150px"></SponserLogo>
+        <SponsorLogo logo={LA10Ys} maxHeight="150px"></SponsorLogo>
       </SliderItem>        
     </SlideContainer>
   </>
 );
 }
 
-export default SponserLogoSlider;
+export default SponsorLogoSlider;
