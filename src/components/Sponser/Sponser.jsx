@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import ABABA from "../../Assets/Sponser/Ababa.png";
 import Cookpad from "../../Assets/Sponser/Cookpad.png";
 import GeekSalon from "../../Assets/Sponser/GeekSalon.png";
@@ -30,19 +30,41 @@ function Sponser() {
         <p style={{ color: "black" }}>
           Here are about our sponser.
         </p>
-        <Container style={{ marginTop: 100, marginBottom: 100}}>
+        <Container style={{ marginTop: 100, marginBottom: 200}}>
           <Row style={{ justifyContent: "center"}}>
-              <SponserLogo logo={ABABA} maxHeight="150px"></SponserLogo>
-              <SponserLogo logo={Cookpad} maxHeight="150px"></SponserLogo>
-              <SponserLogo logo={GeekSalon} maxHeight="150px"></SponserLogo>
-              <SponserLogo logo={Givery} maxHeight="250px"></SponserLogo>
-              <SponserLogo logo={Kobe} maxHeight="150px"></SponserLogo>
-              <SponserLogo logo={Mynavi} maxHeight="150px"></SponserLogo>
-              <SponserLogo logo={NextKeyman} maxHeight="150px"></SponserLogo>
-              <SponserLogo logo={Novavarsity} maxHeight="150px"></SponserLogo>
-              <SponserLogo logo={Axross} maxHeight="150px"></SponserLogo>
-              <SponserLogo logo={TechBowl} maxHeight="150px"></SponserLogo>
-              <SponserLogo logo={LA10Ys} maxHeight="150px"></SponserLogo>
+            <Col md={2}>
+                <SponserLogo logo={ABABA} maxHeight="150px"></SponserLogo>
+            </Col>
+            <Col md={2}>
+                <SponserLogo logo={Cookpad} maxHeight="150px"></SponserLogo>
+            </Col>
+            <Col md={2}>
+                <SponserLogo logo={GeekSalon} maxHeight="150px"></SponserLogo>
+            </Col>
+            <Col md={2}>
+                <SponserLogo logo={Givery} maxHeight="150px"></SponserLogo>
+            </Col>
+            <Col md={2}>
+                <SponserLogo logo={Kobe} maxHeight="150px"></SponserLogo>
+            </Col>
+            <Col md={2}>
+                <SponserLogo logo={Mynavi} maxHeight="150px"></SponserLogo>
+            </Col>
+            <Col md={2}>
+                <SponserLogo logo={NextKeyman} maxHeight="150px"></SponserLogo>
+            </Col>
+            <Col md={2}>
+                <SponserLogo logo={Novavarsity} maxHeight="150px"></SponserLogo>
+            </Col>
+            <Col md={2}>
+                <SponserLogo logo={Axross} maxHeight="150px"></SponserLogo>
+            </Col>
+            <Col md={2}>
+                <SponserLogo logo={TechBowl} maxHeight="150px"></SponserLogo>
+            </Col>
+            <Col md={2}>
+                <SponserLogo logo={LA10Ys} maxHeight="150px"></SponserLogo>
+            </Col>
           </Row>
         </Container>
       </Container>
