@@ -18,37 +18,37 @@ function SponsorLogoSlider() {
         <>
     <SlideContainer contentWidth={1600} initialOffsetX={0}>
       <SliderItem width={150}>
-        <SponsorLogo logo={ABABA} maxHeight="100px"></SponsorLogo>
+        <SponsorLogo logo={ABABA} maxHeight="100px"/>
       </SliderItem>
       <SliderItem width={150}>
-        <SponsorLogo logo={Cookpad} maxHeight="100px"></SponsorLogo>
+        <SponsorLogo logo={Cookpad} maxHeight="100px"/>
       </SliderItem>
       <SliderItem width={150}>
-        <SponsorLogo logo={GeekSalon} maxHeight="100px"></SponsorLogo>
+        <SponsorLogo logo={GeekSalon} maxHeight="100px"/>
       </SliderItem>
       <SliderItem width={150}>
-        <SponsorLogo logo={Givery} maxHeight="150px"></SponsorLogo>
+        <SponsorLogo logo={Givery} maxHeight="150px"/>
       </SliderItem>
       <SliderItem width={150}>
-        <SponsorLogo logo={Kobe} maxHeight="100px"></SponsorLogo>
+        <SponsorLogo logo={Kobe} maxHeight="100px"/>
       </SliderItem>
       <SliderItem width={150}>
-        <SponsorLogo logo={Mynavi} maxHeight="100px"></SponsorLogo>
+        <SponsorLogo logo={Mynavi} maxHeight="100px"/>
       </SliderItem>
       <SliderItem width={150}>
-        <SponsorLogo logo={NextKeyman} maxHeight="150px"></SponsorLogo>
+        <SponsorLogo logo={NextKeyman} maxHeight="150px"/>
       </SliderItem>
       <SliderItem width={150}>
-        <SponsorLogo logo={Novavarsity} maxHeight="100px"></SponsorLogo>
+        <SponsorLogo logo={Novavarsity} maxHeight="100px"/>
       </SliderItem>
       <SliderItem width={150}>
-        <SponsorLogo logo={Axross} maxHeight="150px"></SponsorLogo>
+        <SponsorLogo logo={Axross} maxHeight="150px"/>
       </SliderItem>
       <SliderItem width={150}>
-        <SponsorLogo logo={TechBowl} maxHeight="150px"></SponsorLogo>
+        <SponsorLogo logo={TechBowl} maxHeight="150px"/>
       </SliderItem>
       <SliderItem width={150}>
-        <SponsorLogo logo={LA10Ys} maxHeight="150px"></SponsorLogo>
+        <SponsorLogo logo={LA10Ys} maxHeight="150px"/>
       </SliderItem>        
     </SlideContainer>
   </>

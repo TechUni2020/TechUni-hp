@@ -1,18 +1,18 @@
 import React from "react";
-import SponsorLogo from "./SponsorLogoSlider";
+import SponsorLogoSlider from "./SponserLogoSlider";
 
 function LogoSlider() {
     return (
-        <section className="logo-slider-section">
-          <div className="logo-slider-container">
-            <h3 className="sponsor-title">
-              <span>Sponsored by</span>{" "}
-            </h3>
-            <SponsorLogo />
-          </div>
-        </section>
-      );
+            <section className="logo-slider-section">
+                <div className="logo-slider-container">
+                    <h3 className="sponsor-title">
+                        <span>Sponsored by</span>{" "}
+                    </h3>
+                    <SponsorLogoSlider/>
+                </div>
+            </section>
+    );
 }
-  
+
 
 export default LogoSlider;
