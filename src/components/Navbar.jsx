@@ -75,10 +75,10 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/sponser"
+                to="/sponsor"
                 onClick={() => updateExpanded(false)}
               >
-                <CgCrop style={{ marginBottom: "2px" }} /> Sponser
+                <CgCrop style={{ marginBottom: "2px" }} /> Sponsor
               </Nav.Link>
             </Nav.Item>
           </Nav>

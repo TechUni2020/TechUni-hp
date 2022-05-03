@@ -8,7 +8,7 @@ import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
 import History2020 from "./components/History/2020/History";
 import History2021 from "./components/History/2021/History";
-import Sponser from "./components/Sponser/Sponser";
+import Sponsor from "./components/Sponsor/Sponsor";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -26,7 +26,7 @@ ReactDOM.render(
                         <Route path="2020" element={<History2020 />} />
                         <Route path="2021" element={<History2021 />} />
                     </Route>
-                    <Route path="sponser" element={<Sponser />} />
+                    <Route path="sponsor" element={<Sponsor />} />
                     <Route path="*" element={<Home />} />
                 </Route>
             </Routes>
