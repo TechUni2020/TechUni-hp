@@ -76,20 +76,6 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={TechBoard}
-              isCode={false}
-              title="Tech.Board"
-              description="オンラインホワイトボードwebアプリ。Tech.Uni内で使用できるツールとして開発。"
-              category="webアプリ"
-              frontend="Nuxt.js"
-              backend="Kotlin"
-              infra="Docker"
-              author="井手翔陽、テザー"
-              link="https://tech-board-tau.vercel.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={FeverMonitor}
               isCode={false}
               title="FeverMonitor"
@@ -112,6 +98,20 @@ function Projects() {
               backend="SwiftUI" 
               author="高橋由"
               link="https://iapp.devel.jp/mobile/m-02/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TechBoard}
+              isCode={false}
+              title="Tech.Board"
+              description="オンラインホワイトボードwebアプリ。Tech.Uni内で使用できるツールとして開発。"
+              category="webアプリ"
+              frontend="Nuxt.js"
+              backend="Kotlin"
+              infra="Docker"
+              author="井手翔陽、テザー"
+              link="https://tech-board-tau.vercel.app/"
             />
           </Col>
         </Row>
