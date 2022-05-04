@@ -6,6 +6,8 @@ import ProTask from "../../Assets/Projects/ProTask.png";
 import TechUni from "../../Assets/Projects/TechUni.png";
 import TechInterview from "../../Assets/Projects/TechInterview.png";
 import TechBoard from "../../Assets/Projects/TechBoard.png";
+import FeverMonitor from "../../Assets/Projects/FeverMonitor.png";
+import SubsManager from "../../Assets/Projects/SubsManager.png";
 
 function Projects() {
   return (
@@ -70,6 +72,32 @@ function Projects() {
               infra="GCP"
               author="井手翔陽、テザー、大島颯人、福山祐史、サンジャ、藤本優梨花"
               link="https://github.com/jphacks/B_2105_client"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={FeverMonitor}
+              isCode={false}
+              title="FeverMonitor"
+              description="体温の変化をより視覚的に表示したり、設定された時間に体温を計測するようにお知らせします。ヘルスケアアプリと連携して簡単に体温を記録できます。"
+              category="スマホアプリ"
+              frontend="Swift"
+              backend="SwiftUI" //backendではないけど(変数名変えよかな)
+              author="高橋由"
+              link="https://iapp.devel.jp/mobile/m-01/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SubsManager}
+              isCode={false}
+              title="SubsManager"
+              description="煩雑になりがちなサブスクリプション管理をよりスマートに。指定された日時にお支払日や料金をお知らせします。"
+              category="スマホアプリ"
+              frontend="Swift"
+              backend="SwiftUI" 
+              author="高橋由"
+              link="https://iapp.devel.jp/mobile/m-02/"
             />
           </Col>
           <Col md={4} className="project-card">
