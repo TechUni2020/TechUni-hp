@@ -33,34 +33,34 @@ function Sponsor() {
                     <Container style={{marginTop: 100, marginBottom: 200}}>
                         <Row style={{justifyContent: "center"}}>
                             <Col md={2}>
-                                <SponsorLogo logo={ABABA} maxHeight="150px"/>
+                                <SponsorLogo logo={ABABA} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={Cookpad} maxHeight="150px"/>
+                                <SponsorLogo logo={Cookpad} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={GeekSalon} maxHeight="150px"/>
+                                <SponsorLogo logo={GeekSalon} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={Givery} maxHeight="150px"/>
+                                <SponsorLogo logo={Givery} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={Kobe} maxHeight="150px"/>
+                                <SponsorLogo logo={Kobe} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={Mynavi} maxHeight="150px"/>
+                                <SponsorLogo logo={Mynavi} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={NextKeyman} maxHeight="150px"/>
+                                <SponsorLogo logo={NextKeyman} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={Novavarsity} maxHeight="150px"/>
+                                <SponsorLogo logo={Novavarsity} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={Axross} maxHeight="150px"/>
+                                <SponsorLogo logo={Axross} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={TechBowl} maxHeight="150px"/>
+                                <SponsorLogo logo={TechBowl} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
                                 <SponsorLogo logo={LA10Ys} maxHeight="150px"/>
