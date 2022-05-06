@@ -12,7 +12,7 @@ import Codepick from "../../Assets/Projects/Codepick.png";
 import Cafe from "../../Assets/Projects/Cafe.png";
 import AROOMS from "../../Assets/Projects/AROOMS.jpg";
 import Itimai from "../../Assets/Projects/Itimai.jpg";
-import Vividstudio from "../../Assets/Projects/Vividstudio.png";
+// import Vividstudio from "../../Assets/Projects/Vividstudio.png";
 
 
 function Projects() {
