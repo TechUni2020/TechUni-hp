@@ -57,7 +57,7 @@ function Sponsor() {
                                 <SponsorLogo logo={Novavarsity} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={Axross} maxHeight="150px" marginBottom="50px"/>
+                                <SponsorLogo logo={Axross} maxHeight="200px" marginBottom="0px"/>
                             </Col>
                             <Col md={2}>
                                 <SponsorLogo logo={TechBowl} maxHeight="150px" marginBottom="50px"/>
