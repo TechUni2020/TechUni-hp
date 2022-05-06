@@ -8,6 +8,12 @@ import TechInterview from "../../Assets/Projects/TechInterview.png";
 import TechBoard from "../../Assets/Projects/TechBoard.png";
 import FeverMonitor from "../../Assets/Projects/FeverMonitor.png";
 import SubsManager from "../../Assets/Projects/SubsManager.png";
+import Codepick from "../../Assets/Projects/Codepick.png";
+import Cafe from "../../Assets/Projects/Cafe.png";
+import AROOMS from "../../Assets/Projects/AROOMS.jpg";
+import Itimai from "../../Assets/Projects/Itimai.jpg";
+// import Vividstudio from "../../Assets/Projects/Vividstudio.png";
+
 
 function Projects() {
   return (
@@ -112,6 +118,74 @@ function Projects() {
               infra="Docker"
               author="井手翔陽、テザー"
               link="https://tech-board-tau.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Codepick}
+              isCode={false}
+              title="Codepick"
+              description="プログラミングソースコード売買プラットフォーム
+              Githubはライブラリのソースコードが多く、実際サービスとして動くコードがなかなか見つけられません。codepickは実際サービスとして動いているコードを対象にしGithubとは別の視点でライブラリの選定から使用方法までも学べるプラットフォームを目指しています。
+              "
+              category="webアプリ"
+              frontend="Next.js"
+              backend="Rails"
+              infra="Docker"
+              author="河合賢伸"
+              link="https://codepick.jp/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Cafe}
+              isCode={false}
+              title="カフェの時間"
+              description="カフェ好きのためのSNS、お店検索、カフェマップなどの機能があります。"
+              category="スマホアプリ"
+              frontend="Flutter"
+              backend="Firebase"
+              infra="Google Map API"
+              author="成尾憙貴"
+              link="https://apps.apple.com/jp/app/%E3%82%AB%E3%83%95%E3%82%A7%E3%81%AE%E6%99%82%E9%96%93/id1606655660"
+            />
+          </Col>
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Vividstudio}
+              isCode={true}
+              title="vividstudio"
+              description="会議ツール(web , モバイルを兼用可能)"
+              category="webアプリ/スマホアプリ"
+              frontend="Flutter"
+              backend="Firebase"
+              infra="Vue.js"
+              author=""
+              link="https://github.com/jphacks/B_2107"
+            />
+          </Col> */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={AROOMS}
+              isCode={false}
+              title="関西の学院大学空き教室検索サイトAROOM"
+              description="大学の空き教室を5秒で検索するサイト"
+              category="webアプリ"
+              frontend="Ruby on rails"
+              author="中西直人"
+              link="https://arooms.herokuapp.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Itimai}
+              isCode={false}
+              title="Itimai"
+              description="見せたいけど見せたくない写真を共有するサイト"
+              category="webアプリ"
+              frontend="Ruby on rails"
+              author="中西直人"
+              link="https://itimaiweb.herokuapp.com/"
             />
           </Col>
         </Row>
