@@ -12,6 +12,8 @@ import Codepick from "../../Assets/Projects/Codepick.png";
 import Cafe from "../../Assets/Projects/Cafe.png";
 import AROOMS from "../../Assets/Projects/AROOMS.jpg";
 import Itimai from "../../Assets/Projects/Itimai.jpg";
+import OldLens from "../../Assets/Projects/OldLens.png";
+import Online from "../../Assets/Projects/Online.png";
 // import Vividstudio from "../../Assets/Projects/Vividstudio.png";
 
 
@@ -186,6 +188,39 @@ function Projects() {
               frontend="Ruby on rails"
               author="中西直人"
               link="https://itimaiweb.herokuapp.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={OldLens}
+              isCode={true}
+              title="オールドレンズの解析"
+              description="Pythonを用いたオールドレンズのシミュレーションをして光学の理解を深めた。
+              課題:
+              1.色消しレンズであることの判定が雑なこと
+              2.球面レンズの計算のみを考えて、非球面の計算を実装していないこと
+              3.SCHOTT社のガラスデータのみで計算したこと
+              4.各屈折面の計算を一般化しなかったのでコードが冗長なこと(JavaScriptで、2次元の場合については一般化しました"
+              category="研究"
+              frontend="Python 3.6"
+              backend="numpy"
+              infra="matplotlib"
+              author="小鹿哲雅"
+              link="https://github.com/OAkimasa/optics_135mm_macro"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Online}
+              isCode={false}
+              title="オンライン実行環境"
+              description="環境構築なしでブラウザでプログラムを実行できます。"
+              category="webアプリ"
+              frontend="Vue.js"
+              backend="Go"
+              infra="AWS ( S3 CloudFront ECS on EC2 etc )"
+              author="山岡朋樹"
+              link="https://www.code-run.ga/"
             />
           </Col>
         </Row>
