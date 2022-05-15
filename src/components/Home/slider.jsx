@@ -3,7 +3,7 @@ import { SizeContext } from '../../utils/size-observer'
 import useAnimationFrame from '../../utils/use-animation-frame'
 
 
-function SlideContainer ({children,initialOffsetX,contentWidth})  {
+function SlideContainer ({children,initialOffsetX,contentWidth, marginTop})  {
     const {innerWidth} = useContext(SizeContext)
     const refScrollX  = useRef(initialOffsetX)
     const refContainer = useRef(null);
@@ -24,7 +24,7 @@ function SlideContainer ({children,initialOffsetX,contentWidth})  {
         }
     },[]))
     return(
-        <div ref={refContainer} className="slider-container">
+        <div ref={refContainer} className="slider-container" style={{marginTop:marginTop}}>
             <div ref={refContent} className="slider-container-ref-enabled">
                 {children}
             </div>

@@ -30,25 +30,36 @@ function SponsorLogoSlider() {
         <SponsorLogo logo={Givery} maxHeight="150px"/>
       </SliderItem>
       <SliderItem width={150}>
+        <SponsorLogo logo={TechBowl} maxHeight="150px"/>
+      </SliderItem>
+      <SliderItem width={150}>
         <SponsorLogo logo={Kobe} maxHeight="100px"/>
       </SliderItem>
       <SliderItem width={150}>
         <SponsorLogo logo={Mynavi} maxHeight="100px"/>
       </SliderItem>
+    </SlideContainer>
+    <SlideContainer contentWidth={1600} initialOffsetX={280}>
       <SliderItem width={150}>
         <SponsorLogo logo={NextKeyman} maxHeight="150px"/>
-      </SliderItem>
-      <SliderItem width={150}>
-        <SponsorLogo logo={Novavarsity} maxHeight="100px"/>
-      </SliderItem>
-      <SliderItem width={150}>
-        <SponsorLogo logo={Axross} maxHeight="150px"/>
       </SliderItem>
       <SliderItem width={150}>
         <SponsorLogo logo={TechBowl} maxHeight="150px"/>
       </SliderItem>
       <SliderItem width={150}>
-        <SponsorLogo logo={LA10Ys} maxHeight="150px"/>
+        <SponsorLogo logo={Novavarsity} maxHeight="100px"/>
+      </SliderItem>
+      <SliderItem width={150}>
+        <SponsorLogo logo={Axross} maxHeight="100px"/>
+      </SliderItem>
+      <SliderItem width={150}>
+        <SponsorLogo logo={Cookpad} maxHeight="100px"/>
+      </SliderItem>
+      <SliderItem width={150}>
+        <SponsorLogo logo={Mynavi} maxHeight="100px"/>
+      </SliderItem>
+      <SliderItem width={150}>
+        <SponsorLogo logo={LA10Ys} maxHeight="100px"/>
       </SliderItem>        
     </SlideContainer>
   </>
