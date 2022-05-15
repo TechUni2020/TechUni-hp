@@ -1,20 +1,19 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import ProTain from "../../Assets/Projects/ProTain.png";
-import ProTask from "../../Assets/Projects/ProTask.png";
-import TechUni from "../../Assets/Projects/TechUni.png";
-import TechInterview from "../../Assets/Projects/TechInterview.png";
-import TechBoard from "../../Assets/Projects/TechBoard.png";
-import FeverMonitor from "../../Assets/Projects/FeverMonitor.png";
-import SubsManager from "../../Assets/Projects/SubsManager.png";
-import Codepick from "../../Assets/Projects/Codepick.png";
-import Cafe from "../../Assets/Projects/Cafe.png";
-import AROOMS from "../../Assets/Projects/AROOMS.jpg";
-import Itimai from "../../Assets/Projects/Itimai.jpg";
-import OldLens from "../../Assets/Projects/OldLens.png";
-import Online from "../../Assets/Projects/Online.png";
-// import Vividstudio from "../../Assets/Projects/Vividstudio.png";
+import ProTain from "../../assets/Projects/ProTain.png";
+import ProTask from "../../assets/Projects/ProTask.png";
+import TechUni from "../../assets/Projects/TechUni.png";
+import TechInterview from "../../assets/Projects/TechInterview.png";
+import TechBoard from "../../assets/Projects/TechBoard.png";
+import FeverMonitor from "../../assets/Projects/FeverMonitor.png";
+import SubsManager from "../../assets/Projects/SubsManager.png";
+import Codepick from "../../assets/Projects/Codepick.png";
+import Cafe from "../../assets/Projects/Cafe.png";
+import AROOMS from "../../assets/Projects/AROOMS.jpg";
+import Itimai from "../../assets/Projects/Itimai.jpg";
+import OldLens from "../../assets/Projects/OldLens.png";
+import Online from "../../assets/Projects/Online.png";
 
 
 function Projects() {
