@@ -1,17 +1,17 @@
 import React from "react";
 import SlideContainer, { SliderItem } from "./slider";
 import SponsorLogo from "../Sponsor/SponsorLogo";
-import ABABA from "../../Assets/Sponsor/Ababa.png";
-import Cookpad from "../../Assets/Sponsor/Cookpad.png";
-import GeekSalon from "../../Assets/Sponsor/GeekSalon.png";
-import Givery from "../../Assets/Sponsor/Givery.png";
-import Kobe from "../../Assets/Sponsor/Kobe.png";
-import Mynavi from "../../Assets/Sponsor/Mynavi.png";
-import NextKeyman from "../../Assets/Sponsor/NextKeyman.png";
-import Novavarsity from "../../Assets/Sponsor/Novavarsity.png";
-import Axross from "../../Assets/Sponsor/Axross.png";
-import TechBowl from "../../Assets/Sponsor/TechBowl.png";
-import LA10Ys from "../../Assets/Sponsor/LA10Ys.png";
+import ABABA from "../../assets/Sponsor/Ababa.png";
+import Cookpad from "../../assets/Sponsor/Cookpad.png";
+import GeekSalon from "../../assets/Sponsor/GeekSalon.png";
+import Givery from "../../assets/Sponsor/Givery.png";
+import Kobe from "../../assets/Sponsor/Kobe.png";
+import Mynavi from "../../assets/Sponsor/Mynavi.png";
+import NextKeyman from "../../assets/Sponsor/NextKeyman.png";
+import Novavarsity from "../../assets/Sponsor/Novavarsity.png";
+import Axross from "../../assets/Sponsor/Axross.png";
+import TechBowl from "../../assets/Sponsor/TechBowl.png";
+import LA10Ys from "../../assets/Sponsor/LA10Ys.png";
 
 function SponsorLogoSlider() {
     return(
