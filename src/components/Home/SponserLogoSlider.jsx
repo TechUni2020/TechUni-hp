@@ -2,7 +2,7 @@ import React from "react";
 import SlideContainer, { SliderItem } from "./slider";
 import SponsorLogo from "../Sponsor/SponsorLogo";
 import ABABA from "../../assets/Sponsor/Ababa.png";
-import Cookpad from "../../assets/Sponsor/Cookpad.png";
+// import Cookpad from "../../assets/Sponsor/Cookpad.png";
 import GeekSalon from "../../assets/Sponsor/GeekSalon.png";
 import Givery from "../../assets/Sponsor/Givery.png";
 import Kobe from "../../assets/Sponsor/Kobe.png";
@@ -20,9 +20,9 @@ function SponsorLogoSlider() {
       <SliderItem width={150}>
         <SponsorLogo logo={ABABA} maxHeight="100px"/>
       </SliderItem>
-      <SliderItem width={150}>
+      {/* <SliderItem width={150}>
         <SponsorLogo logo={Cookpad} maxHeight="100px"/>
-      </SliderItem>
+      </SliderItem> */}
       <SliderItem width={150}>
         <SponsorLogo logo={GeekSalon} maxHeight="100px"/>
       </SliderItem>
@@ -52,9 +52,9 @@ function SponsorLogoSlider() {
       <SliderItem width={150}>
         <SponsorLogo logo={Axross} maxHeight="100px"/>
       </SliderItem>
-      <SliderItem width={150}>
+      {/* <SliderItem width={150}>
         <SponsorLogo logo={Cookpad} maxHeight="100px"/>
-      </SliderItem>
+      </SliderItem> */}
       <SliderItem width={150}>
         <SponsorLogo logo={Mynavi} maxHeight="100px"/>
       </SliderItem>
