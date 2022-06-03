@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Table } from "react-bootstrap";
-import homeLogo from "../../Assets/TechUni.svg";
+import homeLogo from "../../assets/TechUni.svg";
 import { AiFillInstagram, AiOutlineTwitter, } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
 import { BiBookOpen } from "react-icons/bi";

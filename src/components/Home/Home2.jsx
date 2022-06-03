@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import homeLogo from "../../Assets/TechUni.svg";
+import homeLogo from "../../assets/TechUni.svg";
 import { AiFillGithub, AiOutlineTwitter, } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
 import LogoSlider from "./LogoSlider"
@@ -49,8 +49,8 @@ function Home2() {
         <LogoSlider></LogoSlider>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1 class="text-dark">FIND US ON</h1>
-            <p class="text-dark">
+            <h1 className="text-dark">FIND US ON</h1>
+            <p className="text-dark">
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
