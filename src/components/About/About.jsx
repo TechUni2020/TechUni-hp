@@ -43,6 +43,10 @@ function About() {
             <td>井手 翔陽</td>
           </tr>
           <tr>
+            <td>創設者 / 副会長</td>
+            <td>Tayzar Naing Win</td>
+          </tr>
+          <tr>
             <td>主内容</td>
             <td>web・アプリ開発、ITコミュニティの運営</td>
           </tr>
