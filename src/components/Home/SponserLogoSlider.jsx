@@ -24,9 +24,6 @@ function SponsorLogoSlider() {
         <SponsorLogo logo={Cookpad} maxHeight="100px"/>
       </SliderItem> */}
       <SliderItem width={150}>
-        <SponsorLogo logo={GeekSalon} maxHeight="100px"/>
-      </SliderItem>
-      <SliderItem width={150}>
         <SponsorLogo logo={Givery} maxHeight="150px"/>
       </SliderItem>
       <SliderItem width={150}>

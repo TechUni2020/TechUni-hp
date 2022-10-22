@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import ABABA from "../../assets/Sponsor/Ababa.png";
 // import Cookpad from "../../assets/Sponsor/Cookpad.png";
-import GeekSalon from "../../assets/Sponsor/GeekSalon.png";
 import Givery from "../../assets/Sponsor/Givery.png";
 import Kobe from "../../assets/Sponsor/Kobe.png";
 import Mynavi from "../../assets/Sponsor/Mynavi.png";
@@ -38,9 +37,6 @@ function Sponsor() {
                             {/* <Col md={2}>
                                 <SponsorLogo logo={Cookpad} maxHeight="150px" marginBottom="50px"/>
                             </Col> */}
-                            <Col md={2}>
-                                <SponsorLogo logo={GeekSalon} maxHeight="150px" marginBottom="50px"/>
-                            </Col>
                             <Col md={2}>
                                 <SponsorLogo logo={Givery} maxHeight="150px" marginBottom="50px"/>
                             </Col>
