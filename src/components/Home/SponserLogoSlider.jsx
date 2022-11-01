@@ -3,7 +3,6 @@ import SlideContainer, { SliderItem } from "./slider";
 import SponsorLogo from "../Sponsor/SponsorLogo";
 import ABABA from "../../assets/Sponsor/Ababa.png";
 // import Cookpad from "../../assets/Sponsor/Cookpad.png";
-import GeekSalon from "../../assets/Sponsor/GeekSalon.png";
 import Givery from "../../assets/Sponsor/Givery.png";
 import Kobe from "../../assets/Sponsor/Kobe.png";
 import Mynavi from "../../assets/Sponsor/Mynavi.png";
@@ -23,9 +22,6 @@ function SponsorLogoSlider() {
       {/* <SliderItem width={150}>
         <SponsorLogo logo={Cookpad} maxHeight="100px"/>
       </SliderItem> */}
-      <SliderItem width={150}>
-        <SponsorLogo logo={GeekSalon} maxHeight="100px"/>
-      </SliderItem>
       <SliderItem width={150}>
         <SponsorLogo logo={Givery} maxHeight="150px"/>
       </SliderItem>

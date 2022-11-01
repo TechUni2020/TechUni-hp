@@ -67,10 +67,6 @@ function History() {
               </tr>
               <tr>
                 <td></td>
-                <td>プログラミングスクールGeekSalon様と提携</td>
-              </tr>
-              <tr>
-                <td></td>
                 <td>株式会社マイナビ様と提携</td>
               </tr>
               <tr>
