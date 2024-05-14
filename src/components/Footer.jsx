@@ -12,7 +12,7 @@ function Footer() {
           <h3>IT学生団体Tech.Uni</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © 2020~{year} Tech.Uni</h3>
+          <h3>Copyright © 2020-{year} Tech.Uni</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
