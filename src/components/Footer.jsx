@@ -9,7 +9,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>IT学生団体Tech.Uni</h3>
+          <h3>IT系学生団体 Tech.Uni</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © 2020-{year} Tech.Uni</h3>
