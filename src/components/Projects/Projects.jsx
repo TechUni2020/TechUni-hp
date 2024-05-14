@@ -1,19 +1,19 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import ProTain from "../../assets/Projects/ProTain.png";
-import ProTask from "../../assets/Projects/ProTask.png";
-import TechUni from "../../assets/Projects/TechUni.png";
-import TechInterview from "../../assets/Projects/TechInterview.png";
-import TechBoard from "../../assets/Projects/TechBoard.png";
-import FeverMonitor from "../../assets/Projects/FeverMonitor.png";
-import SubsManager from "../../assets/Projects/SubsManager.png";
-import Codepick from "../../assets/Projects/Codepick.png";
-import Cafe from "../../assets/Projects/Cafe.png";
 import AROOMS from "../../assets/Projects/AROOMS.jpg";
+import Cafe from "../../assets/Projects/Cafe.png";
+import Codepick from "../../assets/Projects/Codepick.png";
+import FeverMonitor from "../../assets/Projects/FeverMonitor.png";
 import Itimai from "../../assets/Projects/Itimai.jpg";
 import OldLens from "../../assets/Projects/OldLens.png";
 import Online from "../../assets/Projects/Online.png";
+import ProTain from "../../assets/Projects/ProTain.png";
+import ProTask from "../../assets/Projects/ProTask.png";
+import SubsManager from "../../assets/Projects/SubsManager.png";
+import TechBoard from "../../assets/Projects/TechBoard.png";
+import TechInterview from "../../assets/Projects/TechInterview.png";
+import TechUni from "../../assets/Projects/TechUni.png";
+import ProjectCard from "./ProjectCards";
 
 
 function Projects() {
@@ -32,7 +32,7 @@ function Projects() {
               imgPath={TechUni}
               isCode={true}
               title="Tech.Uni Webサイト"
-              description="プログラミング研究会Tech.Uniのホームページ。メンバーとのチーム開発で日々アップデートを行う予定です"
+              description="IT系学生団体Tech.Uniのホームページ。メンバーとのチーム開発で日々アップデートを行う予定です"
               category="webサイト"
               frontend="React"
               author="井手翔陽、テザー"
@@ -102,7 +102,7 @@ function Projects() {
               description="煩雑になりがちなサブスクリプション管理をよりスマートに。指定された日時にお支払日や料金をお知らせします。"
               category="スマホアプリ"
               frontend="Swift"
-              backend="SwiftUI" 
+              backend="SwiftUI"
               author="高橋由"
               link="https://iapp.devel.jp/mobile/m-02/"
             />

@@ -2,9 +2,9 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
 import Particle from "../Particle";
+import ButtonCard from "./ButtonCard";
 import Home2 from "./Home2";
 import Type from "./Type";
-import ButtonCard from "./ButtonCard";
 
 function Home() {
   return (
@@ -13,7 +13,7 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col  className="home-header">
+            <Col className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
@@ -21,20 +21,20 @@ function Home() {
                 </span>
               </h1>
               <h1 className="heading-name">
-                プログラミング研究会
+                IT系学生団体
                 <br></br>
                 <strong className="main-name"> Tech.Uni</strong>
               </h1>
-              <div style={{ padding: 50, height:"180px" ,textAlign: "center" }}>
+              <div style={{ padding: 50, height: "180px", textAlign: "center" }}>
                 <Type />
               </div>
             </Col>
           </Row>
         </Container>
-        <ButtonCard 
-              title="Welcome to us"
-              aboutLink="/about"
-              enrollLink="https://forms.gle/D7rD5myoo6wDbfAD7">  
+        <ButtonCard
+          title="Welcome to us"
+          aboutLink="/about"
+          enrollLink="https://forms.gle/D7rD5myoo6wDbfAD7">
         </ButtonCard>
       </Container>
       <Home2 />
