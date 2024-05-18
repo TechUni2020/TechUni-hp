@@ -40,15 +40,15 @@ function About() {
             </tr>
             <tr>
               <td>代表</td>
-              <td>高橋 由</td>
+              <td>高橋 由 <br></br> (関西学院大学・工学部3年)</td>
             </tr>
             <tr>
               <td>副代表</td>
-              <td>岡 和寛</td>
+              <td>岡 和寛 <br></br> (関西学院大学・工学部2年)</td>
             </tr>
             <tr>
-              <td>主内容</td>
-              <td>web・アプリ開発、ITコミュニティの運営</td>
+              <td>活動内容</td>
+              <td>ハッカソンの運営・勉強会運営・web・アプリ開発、ITコミュニティの運営</td>
             </tr>
             <tr>
               <td>メンバー</td>
@@ -69,10 +69,6 @@ function About() {
             <tr>
               <td>参加交流団体</td>
               <td>KC3</td>
-            </tr>
-            <tr>
-              <td>属性</td>
-              <td>IT系学生団体</td>
             </tr>
             <tr>
               <td>SNS</td>
