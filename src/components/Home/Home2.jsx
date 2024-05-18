@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import homeLogo from "../../assets/TechUni.svg";
 import { AiFillGithub, AiOutlineTwitter, } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
-import LogoSlider from "./LogoSlider"
+import homeLogo from "../../assets/TechUni.svg";
+import LogoSlider from "./LogoSlider";
 
 function Home2() {
   return (
@@ -12,11 +12,11 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.5em" }}>
-              Tech.Uniとは？？ 
+              Tech.Uniとは？？
             </h1>
             <h2><span className="purple"> INTRODUCE </span> OURSELF</h2>
             <p className="home-about-body">
-              関西学院大学発祥のプログラミング研究会。
+              関西学院大学発祥のIT系学生団体。
               <br />
               <br />組織理念として
               <i>
@@ -27,7 +27,7 @@ function Home2() {
               現在
               &nbsp;
               <i>
-                <b className="purple">メンバー総数115名 企業提携社数11社 全国大会出場経験有り</b> 
+                <b className="purple">メンバー総数153名 企業提携社数11社 全国大会出場経験有り</b>
               </i>
               &nbsp; と実績を積み重ねて
               <br />
@@ -38,12 +38,12 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
+            <img
+              src={homeLogo}
+              alt="home pic"
+              className="img-fluid"
+              style={{ maxHeight: "450px" }}
+            />
           </Col>
         </Row>
         <LogoSlider></LogoSlider>

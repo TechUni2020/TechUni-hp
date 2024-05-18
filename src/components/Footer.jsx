@@ -9,10 +9,10 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>プログラミング研究会Tech.Uni</h3>
+          <h3>IT系学生団体 Tech.Uni</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} Tech.Uni</h3>
+          <h3>Copyright © 2020-{year} Tech.Uni</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -20,7 +20,7 @@ function Footer() {
               <a
                 href="https://github.com/TechUni2020"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -30,7 +30,7 @@ function Footer() {
               <a
                 href="https://twitter.com/TechUni1026"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -40,7 +40,7 @@ function Footer() {
               <a
                 href="https://www.instagram.com/tech_uni1026"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
