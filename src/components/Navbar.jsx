@@ -9,7 +9,7 @@ import { CgCrop } from "react-icons/cg";
 
 function NavBar() {
     const [expand, updateExpanded] = useState(false);
-    const [navColor, updateNavbar] = useState(false);
+    const [navColor, updateNavbar] = useState(true);
 
     function scrollHandler() {
         if (window.scrollY >= 20) {
