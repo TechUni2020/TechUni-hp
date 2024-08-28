@@ -1,15 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import ABABA from "../../assets/Sponsor/Ababa.png";
-// import Cookpad from "../../assets/Sponsor/Cookpad.png";
-import Givery from "../../assets/Sponsor/Givery.png";
-import Kobe from "../../assets/Sponsor/Kobe.png";
-import Mynavi from "../../assets/Sponsor/Mynavi.png";
-import NextKeyman from "../../assets/Sponsor/NextKeyman.png";
-import Novavarsity from "../../assets/Sponsor/Novavarsity.png";
-import Axross from "../../assets/Sponsor/Axross.png";
-import TechBowl from "../../assets/Sponsor/TechBowl.png";
-import LA10Ys from "../../assets/Sponsor/LA10Ys.png";
+import TechTrain from "../../assets/Sponsor/TechBowl.png";
+import TechFul from "../../assets/Sponsor/TechFUL.png";
+import TrackJob from "../../assets/Sponsor/TrackJob.png";
+import HackBar from "../../assets/Sponsor/hackbar.png";
+import Karabiner from "../../assets/Sponsor/karabiner.png";
+import Kobe from "../../assets/Sponsor/kobe.png";
+import Paiza from "../../assets/Sponsor/paiza.png";
+import Web3Career from "../../assets/Sponsor/web3-career.png";
 import SponsorLogo from "./SponsorLogo";
 
 function Sponsor() {
@@ -32,34 +30,30 @@ function Sponsor() {
                     <Container style={{marginTop: 100, marginBottom: 200}}>
                         <Row style={{justifyContent: "center"}}>
                             <Col md={2}>
-                                <SponsorLogo logo={ABABA} maxHeight="150px" marginBottom="50px"/>
-                            </Col>
-                            {/* <Col md={2}>
-                                <SponsorLogo logo={Cookpad} maxHeight="150px" marginBottom="50px"/>
-                            </Col> */}
-                            <Col md={2}>
-                                <SponsorLogo logo={Givery} maxHeight="150px" marginBottom="50px"/>
+                                <SponsorLogo logo={Karabiner} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
                                 <SponsorLogo logo={Kobe} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={Mynavi} maxHeight="150px" marginBottom="50px"/>
+                                <SponsorLogo logo={Paiza} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={NextKeyman} maxHeight="150px" marginBottom="50px"/>
+                                <SponsorLogo logo={TechTrain} maxHeight="150px" marginBottom="50px"/>
+                            </Col>
+                        </Row>
+                        <Row style={{justifyContent: "center"}}>
+                            <Col md={2}>
+                                <SponsorLogo logo={TrackJob} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={Novavarsity} maxHeight="150px" marginBottom="50px"/>
+                                <SponsorLogo logo={Web3Career} maxHeight="150px" marginBottom="0px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={Axross} maxHeight="200px" marginBottom="0px"/>
+                                <SponsorLogo logo={HackBar} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={TechBowl} maxHeight="150px" marginBottom="50px"/>
-                            </Col>
-                            <Col md={2}>
-                                <SponsorLogo logo={LA10Ys} maxHeight="150px"/>
+                                <SponsorLogo logo={TechFul} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                         </Row>
                     </Container>
