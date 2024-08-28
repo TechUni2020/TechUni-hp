@@ -40,6 +40,15 @@ function SponsorLogoSlider() {
       <SliderItem width={150}>
         <SponsorLogo logo={Web3Career} maxHeight="400px"/>
       </SliderItem>
+      <SliderItem width={150}>
+        <SponsorLogo logo={Kobe} maxHeight="400px"/>
+      </SliderItem>
+      <SliderItem width={150}>
+        <SponsorLogo logo={Paiza} maxHeight="400px"/>
+      </SliderItem>
+      <SliderItem width={150}>
+        <SponsorLogo logo={Web3Career} maxHeight="400px"/>
+      </SliderItem>
     </SlideContainer>
   </>
 );
