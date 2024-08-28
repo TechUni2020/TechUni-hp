@@ -30,7 +30,7 @@ function SponsorLogoSlider() {
         <SponsorLogo logo={Karabiner} maxHeight="400px"/>
       </SliderItem>
     </SlideContainer>
-    <SlideContainer contentWidth={1600} initialOffsetX={280}>
+    <SlideContainer contentWidth={1600} initialOffsetX={285}>
       <SliderItem width={150}>
         <SponsorLogo logo={Kobe} maxHeight="400px"/>
       </SliderItem>
