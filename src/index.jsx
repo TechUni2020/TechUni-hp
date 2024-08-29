@@ -8,6 +8,8 @@ import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
 import History2020 from "./components/History/2020/History";
 import History2021 from "./components/History/2021/History";
+import History2022 from "./components/History/2022/History";
+import History2023 from "./components/History/2023/History";
 import Sponsor from "./components/Sponsor/Sponsor";
 import BlogList from "./components/Blog/BlogList";
 import BlogPage from "./components/Blog/BlogPage";
@@ -27,6 +29,8 @@ ReactDOM.render(
                         )}>
                             <Route path="2020" element={<History2020/>}/>
                             <Route path="2021" element={<History2021/>}/>
+                            <Route path="2022" element={<History2022/>}/>
+                            <Route path="2023" element={<History2023/>}/>
                         </Route>
                         <Route path="sponsor" element={<Sponsor/>}/>
                         <Route path="*" element={<Home/>}/>
