@@ -6,10 +6,10 @@ function History() {
     <Container fluid className="about-section">
       <Container>
       <h1 className="project-heading">
-          Our <strong className="purple">History in 2021</strong>
+          Our <strong className="purple">History in 2023</strong>
         </h1>
         <p style={{ color: "black" }}>
-        Here are  history of 「Tech.Uni」 and its activities in 2021
+        Here are  history of 「Tech.Uni」 and its activities in 2023
         </p>
           <Table striped bordered hover>
             <tbody>
