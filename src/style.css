@@ -455,7 +455,7 @@ button:focus {
   margin-bottom: 60px;
   gap: 60px;
   width: fit-content;
-  animation: top-scroll 10s linear infinite;
+  animation: top-scroll 40s linear infinite;
 }
 .top-slider img {
   width: calc((100% - 50px) / 4 - 60px);
@@ -466,7 +466,7 @@ button:focus {
   display: flex;
   gap: 60px;
   width: fit-content;
-  animation: bottom-scroll 10s linear infinite reverse;
+  animation: bottom-scroll 40s linear infinite reverse;
 }
 .bottom-slider img {
   width: calc((100% - 50px) / 4 - 60px);
