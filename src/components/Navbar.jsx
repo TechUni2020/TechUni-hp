@@ -42,53 +42,57 @@ function NavBar() {
                     </Navbar.Toggle>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto" defaultActiveKey="#home">
-                            <Nav.Item>
-                                <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                                    <AiOutlineHome style={{marginBottom: "2px"}}/> Home
-                                </Nav.Link>
-                            </Nav.Item>
+                            {navColor && (
+                                <>
+                                    <Nav.Item>
+                                        <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                                            <AiOutlineHome style={{marginBottom: "2px"}}/> Home
+                                        </Nav.Link>
+                                    </Nav.Item>
 
-                            <Nav.Item>
-                                <Nav.Link
-                                        as={Link}
-                                        to="/about"
-                                        onClick={() => updateExpanded(false)}
-                                >
-                                    <AiOutlineUser style={{marginBottom: "2px"}}/> About
-                                </Nav.Link>
-                            </Nav.Item>
+                                    <Nav.Item>
+                                        <Nav.Link
+                                                as={Link}
+                                                to="/about"
+                                                onClick={() => updateExpanded(false)}
+                                        >
+                                            <AiOutlineUser style={{marginBottom: "2px"}}/> About
+                                        </Nav.Link>
+                                    </Nav.Item>
 
-                            <Nav.Item>
-                                <Nav.Link
-                                        as={Link}
-                                        to="/project"
-                                        onClick={() => updateExpanded(false)}
-                                >
-                                    <AiOutlineFundProjectionScreen
-                                            style={{marginBottom: "2px"}}
-                                    />{" "}
-                                    Projects
-                                </Nav.Link>
-                            </Nav.Item>
+                                    <Nav.Item>
+                                        <Nav.Link
+                                                as={Link}
+                                                to="/project"
+                                                onClick={() => updateExpanded(false)}
+                                        >
+                                            <AiOutlineFundProjectionScreen
+                                                    style={{marginBottom: "2px"}}
+                                            />{" "}
+                                            Projects
+                                        </Nav.Link>
+                                    </Nav.Item>
 
-                            <Nav.Item>
-                                <Nav.Link
-                                        as={Link}
-                                        to="/sponsor"
-                                        onClick={() => updateExpanded(false)}
-                                >
-                                    <CgCrop style={{marginBottom: "2px"}}/> Sponsor
-                                </Nav.Link>
-                            </Nav.Item>
+                                    <Nav.Item>
+                                        <Nav.Link
+                                                as={Link}
+                                                to="/sponsor"
+                                                onClick={() => updateExpanded(false)}
+                                        >
+                                            <CgCrop style={{marginBottom: "2px"}}/> Sponsor
+                                        </Nav.Link>
+                                    </Nav.Item>
 
-                            <Nav.Item>
-                                <Nav.Link
-                                        href="https://techuni.org/blog/"
-                                        onClick={() => updateExpanded(false)}
-                                >
-                                    <CgCrop style={{marginBottom: "2px"}}/> Blog
-                                </Nav.Link>
-                            </Nav.Item>
+                                    <Nav.Item>
+                                        <Nav.Link
+                                                href="https://techuni.org/blog/"
+                                                onClick={() => updateExpanded(false)}
+                                        >
+                                            <CgCrop style={{marginBottom: "2px"}}/> Blog
+                                        </Nav.Link>
+                                    </Nav.Item>
+                                </>
+                            )}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
