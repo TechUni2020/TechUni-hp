@@ -20,14 +20,6 @@ ReactDOM.render(
                         <Route index element={<Home/>}/>
                         <Route path="project" element={<Projects/>}/>
                         <Route path="about" element={<About/>}/>
-                        <Route path="blog" element={(
-                                <div>
-                                    <Outlet/>
-                                </div>
-                        )}>
-                            <Route path="" element={<BlogList/>}/>
-                            <Route path=":blogId" element={<BlogPage/>}/>
-                        </Route>
                         <Route path="history" element={(
                                 <div>
                                     <Outlet/>
