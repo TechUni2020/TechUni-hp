@@ -6,7 +6,7 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container fluid className="footer">
+    <Container fluid className="footer" style={{ position: "relative" }}>
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>IT系学生団体 Tech.Uni</h3>
