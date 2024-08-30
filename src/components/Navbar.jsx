@@ -83,7 +83,7 @@ function NavBar() {
 
                             <Nav.Item>
                                 <Nav.Link
-                                        href="/blog/"
+                                        href="https://techuni.org/blog/"
                                         onClick={() => updateExpanded(false)}
                                 >
                                     <CgCrop style={{marginBottom: "2px"}}/> Blog
