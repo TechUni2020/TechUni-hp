@@ -29,6 +29,21 @@ function SponsorLogoSlider() {
       <SliderItem width={150}>
         <SponsorLogo logo={Karabiner} maxHeight="400px"/>
       </SliderItem>
+            <SliderItem width={150}>
+        <SponsorLogo logo={TechFul} maxHeight="400px"/>
+      </SliderItem>
+      <SliderItem width={150}>
+        <SponsorLogo logo={TechTrain} maxHeight="400px"/>
+      </SliderItem>
+      <SliderItem width={150}>
+        <SponsorLogo logo={TrackJob} maxHeight="400px"/>
+      </SliderItem>
+      <SliderItem width={150}>
+        <SponsorLogo logo={HackBar} maxHeight="400px"/>
+      </SliderItem>
+      <SliderItem width={150}>
+        <SponsorLogo logo={Karabiner} maxHeight="400px"/>
+      </SliderItem>
     </SlideContainer>
     <SlideContainer contentWidth={1600} initialOffsetX={285}>
       <SliderItem width={150}>
@@ -41,6 +56,24 @@ function SponsorLogoSlider() {
         <SponsorLogo logo={Web3Career} maxHeight="400px"/>
       </SliderItem>
       <SliderItem width={150}>
+        <SponsorLogo logo={Kobe} maxHeight="400px"/>
+      </SliderItem>
+      <SliderItem width={150}>
+        <SponsorLogo logo={Paiza} maxHeight="400px"/>
+      </SliderItem>
+      <SliderItem width={150}>
+        <SponsorLogo logo={Web3Career} maxHeight="400px"/>
+      </SliderItem>
+            <SliderItem width={150}>
+        <SponsorLogo logo={Kobe} maxHeight="400px"/>
+      </SliderItem>
+      <SliderItem width={150}>
+        <SponsorLogo logo={Paiza} maxHeight="400px"/>
+      </SliderItem>
+      <SliderItem width={150}>
+        <SponsorLogo logo={Web3Career} maxHeight="400px"/>
+      </SliderItem>
+            <SliderItem width={150}>
         <SponsorLogo logo={Kobe} maxHeight="400px"/>
       </SliderItem>
       <SliderItem width={150}>
