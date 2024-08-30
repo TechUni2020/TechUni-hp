@@ -446,10 +446,49 @@ button:focus {
 }
 
 .slider-container {
-    overflow-x: hidden;
-    white-space: nowrap;
-    max-width: 100%;
-    pointer-events: none;
+  width: calc(100% - 50px);
+  overflow: hidden;
+}
+
+.top-slider {
+  display: flex;
+  margin-bottom: 60px;
+  gap: 60px;
+  width: fit-content;
+  animation: top-scroll 10s linear infinite;
+}
+.top-slider img {
+  width: calc((100% - 50px) / 4 - 60px);
+  object-fit: cover;
+}
+
+.bottom-slider {
+  display: flex;
+  gap: 60px;
+  width: fit-content;
+  animation: bottom-scroll 10s linear infinite reverse;
+}
+.bottom-slider img {
+  width: calc((100% - 50px) / 4 - 60px);
+  object-fit: cover;
+}
+
+@keyframes top-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(calc(-100% + 50px));
+  }
+}
+
+@keyframes bottom-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(calc(-100% + 50px));
+  }
 }
 
 .slider-container-ref{
