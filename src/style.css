@@ -445,31 +445,35 @@ button:focus {
     align-items: center;
 }
 
+/* -------------- */
+/* Sponsor Slider */
+/* -------------- */
+
 .slider-container {
-  width: calc(100% - 50px);
+  width: 100%;
   overflow: hidden;
 }
 
 .top-slider {
   display: flex;
-  margin-bottom: 60px;
-  gap: 60px;
+  margin-bottom: 50px;
+  gap: 50px;
   width: fit-content;
   animation: top-scroll 40s linear infinite;
 }
-.top-slider img {
-  width: calc((100% - 50px) / 4 - 60px);
+.top-slider img {;
+  width: calc((100% - 50px * 7) / 7);
   object-fit: cover;
 }
 
 .bottom-slider {
   display: flex;
-  gap: 60px;
+  gap: 50px;
   width: fit-content;
   animation: bottom-scroll 40s linear infinite reverse;
 }
 .bottom-slider img {
-  width: calc((100% - 50px) / 4 - 60px);
+  width: calc((100% - 50px * 7) / 7);
   object-fit: cover;
 }
 
@@ -478,7 +482,7 @@ button:focus {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(calc(-100% + 50px));
+    transform: translateX(calc(-200%));
   }
 }
 
@@ -487,7 +491,7 @@ button:focus {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(calc(-100% + 50px));
+    transform: translateX(calc(-200%));
   }
 }
 
