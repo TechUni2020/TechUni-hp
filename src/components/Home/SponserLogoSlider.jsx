@@ -1,6 +1,6 @@
 import React from "react";
-import TechFul from "../../assets/Sponsor/TechFUL.png";
 import TechTrain from "../../assets/Sponsor/TechBowl.png";
+import TechFul from "../../assets/Sponsor/TechFUL.png";
 import TrackJob from "../../assets/Sponsor/TrackJob.png";
 import HackBar from "../../assets/Sponsor/hackbar.png";
 import Karabiner from "../../assets/Sponsor/karabiner.png";
@@ -11,15 +11,18 @@ import SponsorLogo from "../Sponsor/SponsorLogo";
 import SlideContainer from "./slider";
 
 function SponsorLogoSlider() {
-  const topLogos = [TechFul, TechTrain, TrackJob, HackBar];
-  const bottomLogos = [Karabiner, Kobe, Paiza, Web3Career];
+  // 一度に表示されるロゴの配置群を定義
+  const logoPatterns = [
+    [TechFul, TechTrain, TrackJob, HackBar, TechFul, TechTrain, TrackJob],
+    [Karabiner, Kobe, Paiza, Web3Career, Karabiner, Kobe, Paiza],
+  ];
   return (
     <>
       <SlideContainer
-        top={[...topLogos, ...topLogos].map((logo, index) => (
+        top={[...logoPatterns[0], ...logoPatterns[1], ...logoPatterns[0]].map((logo, index) => (
           <SponsorLogo key={index} logo={logo} />
         ))}
-        bottom={[...bottomLogos, ...bottomLogos, ...bottomLogos].map((logo, index) => (
+        bottom={[...logoPatterns[1], ...logoPatterns[0], ...logoPatterns[1]].reverse().map((logo, index) => (
           <SponsorLogo key={index} logo={logo} />
         ))}
       />
