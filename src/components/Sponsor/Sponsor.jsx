@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import TechTrain from "../../assets/Sponsor/TechBowl.png";
-import TechFul from "../../assets/Sponsor/TechFUL.png";
+import TripleFour from "../../assets/Sponsor/TripleFour.png";
 import TrackJob from "../../assets/Sponsor/TrackJob.png";
 import HackBar from "../../assets/Sponsor/hackbar.png";
 import Karabiner from "../../assets/Sponsor/karabiner.png";
@@ -53,7 +53,7 @@ function Sponsor() {
                                 <SponsorLogo logo={HackBar} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={TechFul} maxHeight="150px" marginBottom="50px"/>
+                                <SponsorLogo logo={TripleFour} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                         </Row>
                     </Container>

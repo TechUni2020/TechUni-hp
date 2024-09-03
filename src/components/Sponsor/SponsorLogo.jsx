@@ -6,7 +6,6 @@ function SponsorLogo(props) {
                 src={props.logo}
                 alt="Sponsor pic"
                 className="img-fluid"
-                style={{ maxHeight: props.maxHeight,marginBottom: props.marginBottom, }}
                 />
   );
 }
