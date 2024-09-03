@@ -446,11 +446,45 @@ button:focus {
     align-items: center;
 }
 
+/* -------- */
+/*  Slider */
+/* ------- */
+
 .slider-container {
-    overflow-x: hidden;
-    white-space: nowrap;
-    max-width: 100%;
-    pointer-events: none;
+  width: 100%;
+  overflow: hidden;
+}
+
+.top-slider {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 50px;
+  width: fit-content;
+  animation: scroll 40s linear infinite;
+}
+.top-slider img {;
+  width: calc((100% - 50px * 7) / 7);
+  object-fit: cover;
+}
+
+.bottom-slider {
+  display: flex;
+  gap: 50px;
+  width: fit-content;
+  animation: scroll 40s linear infinite reverse;
+}
+.bottom-slider img {
+  width: calc((100% - 50px * 7) / 7);
+  object-fit: cover;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(calc(-200%));
+  }
 }
 
 .slider-container-ref{
