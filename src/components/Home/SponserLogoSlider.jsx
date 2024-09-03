@@ -1,6 +1,6 @@
 import React from "react";
 import TechTrain from "../../assets/Sponsor/TechBowl.png";
-import TechFul from "../../assets/Sponsor/TechFUL.png";
+import TripleFour from "../../assets/Sponsor/TripleFour.png";
 import TrackJob from "../../assets/Sponsor/TrackJob.png";
 import HackBar from "../../assets/Sponsor/hackbar.png";
 import Karabiner from "../../assets/Sponsor/karabiner.png";
@@ -13,7 +13,7 @@ import SlideContainer from "./slider";
 function SponsorLogoSlider() {
   // 一度に表示されるロゴの配置群を定義
   const logoPatterns = [
-    [TechFul, TechTrain, TrackJob, HackBar, TechFul, TechTrain, TrackJob],
+    [TripleFour, TechTrain, TrackJob, HackBar, TripleFour, TechTrain, TrackJob],
     [Karabiner, Kobe, Paiza, Web3Career, Karabiner, Kobe, Paiza],
   ];
   return (
