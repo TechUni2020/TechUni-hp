@@ -3,7 +3,7 @@ import { Container, Table } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiFillInstagram, AiOutlineTwitter, } from "react-icons/ai";
 import { BiBookOpen } from "react-icons/bi";
-import homeLogo from "../../assets/TechUni.svg";
+import homeLogo from "../../assets/TechUni.png";
 
 function About() {
   return (
