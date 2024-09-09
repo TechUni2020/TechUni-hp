@@ -87,9 +87,9 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                        href="mailto:contact@techuni.org"
-                        rel="noreferrer"
-                        className="icon-colour  home-social-icons"
+                  href="mailto:contact@techuni.org"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
                 >
                   <MdMailOutline/>
                 </a>
