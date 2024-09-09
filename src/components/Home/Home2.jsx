@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { AiFillGithub, AiOutlineTwitter, } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
+import { MdMailOutline } from "react-icons/md";
 import homeLogo from "../../assets/TechUni.png";
 import LogoSlider from "./LogoSlider";
 
@@ -51,7 +52,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1 className="text-dark">FIND US ON</h1>
             <p className="text-dark">
-              Feel free to <a href="mailto:contact@techuni.org"><span className="purple">connect</span></a> with us
+              Feel free to <a href="mailto:contact@techuni.org"><span className="purple">CONTACT</span></a> with us
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -82,6 +83,15 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:contact@techuni.org"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <MdMailOutline/>
                 </a>
               </li>
             </ul>
