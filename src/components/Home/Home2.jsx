@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { AiFillGithub, AiOutlineTwitter, } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
-import homeLogo from "../../assets/TechUni.svg";
+import homeLogo from "../../assets/TechUni.png";
 import LogoSlider from "./LogoSlider";
 
 function Home2() {
@@ -37,12 +37,12 @@ function Home2() {
               として活動中
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar" style={{minHeight: "560px"}}>
             <img
               src={homeLogo}
               alt="home pic"
               className="img-fluid"
-              style={{ maxHeight: "450px" }}
+              style={{ height: "70%", objectFit: "contain"}}
             />
           </Col>
         </Row>
