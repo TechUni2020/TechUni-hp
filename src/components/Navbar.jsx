@@ -10,6 +10,7 @@ import { CgCrop } from "react-icons/cg";
 function NavBar() {
     const [expand, updateExpanded] = useState(false);
     const [navColor, updateNavbar] = useState(true);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
     function scrollHandler() {
         if (window.scrollY < 20) {
@@ -19,7 +20,12 @@ function NavBar() {
         }
     }
 
+    function resizeHandler() {
+        setIsMobile(window.innerWidth <= 768);
+    }
+
     window.addEventListener("scroll", scrollHandler);
+    window.addEventListener("resize", resizeHandler);
 
     return (
             <Navbar
@@ -42,7 +48,7 @@ function NavBar() {
                     </Navbar.Toggle>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto" defaultActiveKey="#home">
-                            {navColor && (
+                            {(navColor || isMobile) && (
                                 <>
                                     <Nav.Item>
                                         <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
