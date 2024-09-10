@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { AiFillGithub, AiFillInstagram, AiOutlineTwitter, } from "react-icons/ai";
+import {MdMailOutline} from "react-icons/md";
 
 function Footer() {
   let date = new Date();
@@ -44,6 +45,15 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto:contact@techuni.org"
+                style={{ color: "white" }}
+                rel="noopener noreferrer"
+              >
+                <MdMailOutline />
               </a>
             </li>
           </ul>
