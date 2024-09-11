@@ -9,12 +9,13 @@ import Paiza from "../../assets/Sponsor/paiza.png";
 import Web3Career from "../../assets/Sponsor/web3-career.png";
 import SponsorLogo from "../Sponsor/SponsorLogo";
 import SlideContainer from "./slider";
+import Mynavi from "../../assets/Sponsor/mynavi.png";
 
 function SponsorLogoSlider() {
   // 一度に表示されるロゴの配置群を定義
   const logoPatterns = [
-    [TripleFour, TechTrain, TrackJob, HackBar, TripleFour, TechTrain, TrackJob],
-    [Karabiner, Kobe, Paiza, Web3Career, Karabiner, Kobe, Paiza],
+    [TripleFour, TechTrain, TrackJob, HackBar, TripleFour, TechTrain, TrackJob, Mynavi],
+    [Karabiner, Kobe, Paiza, Web3Career, Karabiner, Kobe, Paiza, Mynavi],
   ];
   return (
     <>
