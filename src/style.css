@@ -460,10 +460,10 @@ button:focus {
   margin-bottom: 50px;
   gap: 50px;
   width: fit-content;
-  animation: scroll 40s linear infinite;
+  animation: scroll 60s linear infinite;
 }
 .top-slider img {;
-  width: calc((100% - 50px * 8) / 8);
+  width: calc((100% - 50px * 7) / 7);
   object-fit: cover;
 }
 
@@ -471,10 +471,10 @@ button:focus {
   display: flex;
   gap: 50px;
   width: fit-content;
-  animation: scroll 40s linear infinite reverse;
+  animation: scroll 60s linear infinite reverse;
 }
 .bottom-slider img {
-  width: calc((100% - 50px * 8) / 8);
+  width: calc((100% - 50px * 7) / 7);
   object-fit: cover;
 }
 
@@ -483,7 +483,7 @@ button:focus {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(calc(-200%));
+    transform: translateX(calc(-300%));
   }
 }
 
