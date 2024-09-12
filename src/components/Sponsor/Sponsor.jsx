@@ -39,19 +39,17 @@ function Sponsor() {
                             <Col md={2}>
                                 <SponsorLogo logo={Paiza} maxHeight="150px" marginBottom="50px"/>
                             </Col>
-                        </Row>
-                        <Row style={{justifyContent: "center"}}>
                             <Col md={2}>
                                 <SponsorLogo logo={TechTrain} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
                                 <SponsorLogo logo={TrackJob} maxHeight="150px" marginBottom="50px"/>
                             </Col>
+                        </Row>
+                        <Row style={{justifyContent: "center"}}>
                             <Col md={2}>
                                 <SponsorLogo logo={Web3Career} maxHeight="150px" marginBottom="0px"/>
                             </Col>
-                        </Row>
-                        <Row style={{justifyContent: "center"}}>
                             <Col md={2}>
                                 <SponsorLogo logo={HackBar} maxHeight="150px" marginBottom="50px"/>
                             </Col>
