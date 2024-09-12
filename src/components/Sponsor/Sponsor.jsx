@@ -8,6 +8,7 @@ import Karabiner from "../../assets/Sponsor/karabiner.png";
 import Kobe from "../../assets/Sponsor/kobe.png";
 import Paiza from "../../assets/Sponsor/paiza.png";
 import Web3Career from "../../assets/Sponsor/web3-career.png";
+import Mynavi from "../../assets/Sponsor/mynavi.png";
 import SponsorLogo from "./SponsorLogo";
 
 function Sponsor() {
@@ -38,22 +39,27 @@ function Sponsor() {
                             <Col md={2}>
                                 <SponsorLogo logo={Paiza} maxHeight="150px" marginBottom="50px"/>
                             </Col>
+                        </Row>
+                        <Row style={{justifyContent: "center"}}>
                             <Col md={2}>
                                 <SponsorLogo logo={TechTrain} maxHeight="150px" marginBottom="50px"/>
                             </Col>
-                        </Row>
-                        <Row style={{justifyContent: "center"}}>
                             <Col md={2}>
                                 <SponsorLogo logo={TrackJob} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
                                 <SponsorLogo logo={Web3Career} maxHeight="150px" marginBottom="0px"/>
                             </Col>
+                        </Row>
+                        <Row style={{justifyContent: "center"}}>
                             <Col md={2}>
                                 <SponsorLogo logo={HackBar} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
                                 <SponsorLogo logo={TripleFour} maxHeight="150px" marginBottom="50px"/>
+                            </Col>
+                            <Col md={2}>
+                                <SponsorLogo logo={Mynavi} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                         </Row>
                     </Container>
