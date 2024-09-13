@@ -74,8 +74,8 @@ yarn build // bundleファイルであるbuild/が生成されます
 
 `develop`
 
-- developにマージしたら[ステージング環境](https://develop.techuni.org/)よりご確認ください
-※user名/パスワードは会長・副会長に聞いてください
+- developにマージしたら[ステージング環境](https://develop.techuni.org/)より変更内容を確認できます。
+※user名/パスワードはコミッティーにお問い合わせください
 - 本番反映前に確認するための環境（ステージング環境）。
 - 常駐しているブランチで、feature からの変更を受け付け、main にマージする。
 
