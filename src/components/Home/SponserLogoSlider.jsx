@@ -12,19 +12,14 @@ import SponsorLogo from "../Sponsor/SponsorLogo";
 import SlideContainer from "./slider";
 
 function SponsorLogoSlider() {
-  // 一度に表示されるロゴの配置群を定義
-  const logoPatterns = [
-    [TripleFour, TechTrain, TrackJob, HackBar, TripleFour, TechTrain, TrackJob],
-    [Karabiner, Mynavi, Paiza, Web3Career, Karabiner, Kobe, Paiza],
-    [Kobe, TripleFour, TrackJob, HackBar, Mynavi, Karabiner, Web3Career],
-  ];
+  const logos = [TripleFour, TechTrain, TrackJob, HackBar, Karabiner, Kobe, Mynavi, Paiza, Web3Career];
   return (
     <>
       <SlideContainer
-        top={[...logoPatterns[0], ...logoPatterns[2], ...logoPatterns[1], ...logoPatterns[0]].map((logo, index) => (
+        top={[...logos, ...logos].map((logo, index) => (
           <SponsorLogo key={index} logo={logo} />
         ))}
-        bottom={[...logoPatterns[1], ...logoPatterns[0], ...logoPatterns[2], ...logoPatterns[1]].reverse().map((logo, index) => (
+        bottom={[...logos, ...logos].reverse().map((logo, index) => (
           <SponsorLogo key={index} logo={logo} />
         ))}
       />
