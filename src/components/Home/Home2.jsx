@@ -28,7 +28,7 @@ function Home2() {
               現在
               &nbsp;
               <i>
-                <b className="purple">メンバー総数153名 企業提携社数11社 全国大会出場経験有り</b>
+                <b className="purple">メンバー総数193名 企業提携社数11社 全国大会出場経験有り</b>
               </i>
               &nbsp; と実績を積み重ねて
               <br />
