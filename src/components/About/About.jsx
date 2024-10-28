@@ -40,7 +40,9 @@ function About() {
             </tr>
             <tr>
               <td>代表</td>
-              <td>高橋 由 <br></br> (関西学院大学・工学部3年)</td>
+              <td>
+                岡 和寛 <br></br> (関西学院大学・工学部2年)
+              </td>
             </tr>
             <tr>
               <td>副代表</td>
