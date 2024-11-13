@@ -3,7 +3,6 @@ import { Col, Container, Row } from "react-bootstrap";
 import { AiFillGithub, AiOutlineTwitter, } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
 import { MdMailOutline } from "react-icons/md";
-import homeLogo from "../../assets/TechUni.png";
 import LogoSlider from "./LogoSlider";
 
 function Home2() {
@@ -40,7 +39,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar" style={{minHeight: "560px"}}>
             <img
-              src={homeLogo}
+              src="/assets/TechUni.png"
               alt="home pic"
               className="img-fluid"
               style={{ height: "70%", objectFit: "contain"}}

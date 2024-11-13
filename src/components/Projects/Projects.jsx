@@ -12,7 +12,7 @@ import ProTask from "../../assets/Projects/ProTask.png";
 import SubsManager from "../../assets/Projects/SubsManager.png";
 import TechBoard from "../../assets/Projects/TechBoard.png";
 import TechInterview from "../../assets/Projects/TechInterview.png";
-import TechUni from "../../assets/Projects/TechUni.png";
+import TechUni from "../../assets/Projects/TechUniBanner.png";
 import ProjectCard from "./ProjectCards";
 
 
