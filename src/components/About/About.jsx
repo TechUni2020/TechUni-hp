@@ -23,7 +23,7 @@ function About() {
             <tr>
               <td>ロゴ</td>
               <td><img
-                src="/assets/TechUni.png"
+                src="/assets/TechUni.svg"
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "150px" }}

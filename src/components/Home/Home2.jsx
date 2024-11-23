@@ -39,7 +39,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar" style={{minHeight: "560px"}}>
             <img
-              src="/assets/TechUni.png"
+              src="/assets/TechUni.svg"
               alt="home pic"
               className="img-fluid"
               style={{ height: "70%", objectFit: "contain"}}
