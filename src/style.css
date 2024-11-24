@@ -321,15 +321,14 @@ button:focus {
 }
 
 .myAvtar {
+    display: flex;
     justify-content: center !important;
-    padding-top: 9em !important;
+    align-items: center !important;
+    min-height: 450px !important;
 }
 
-@media (max-width: 767px) {
-    .myAvtar {
-        padding-top: 2em !important;
-        padding-bottom: 2em !important;
-    }
+.home-about-row {
+    min-height: 560px !important;
 }
 
 .home-about-section {
