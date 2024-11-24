@@ -22,11 +22,11 @@ function About() {
             </tr>
             <tr>
               <td>ロゴ</td>
-              <td><img
-                src="/assets/TechUni.png"
+              <td style={{ padding: "25px" }}><img
+                src="/assets/TechUni.svg"
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "150px" }}
+                style={{ height: "110px" }}
               /></td>
             </tr>
             <tr>
