@@ -9,7 +9,7 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
+        <Row className="home-about-row">
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.5em" }}>
               Tech.Uniとは？？
@@ -37,12 +37,12 @@ function Home2() {
               として活動中
             </p>
           </Col>
-          <Col md={4} className="myAvtar" style={{minHeight: "560px"}}>
+          <Col md={4} className="myAvtar">
             <img
               src="/assets/TechUni.svg"
               alt="home pic"
               className="img-fluid"
-              style={{ height: "45%", objectFit: "contain"}}
+              style={{ width: "80%", objectFit: "contain"}}
             />
           </Col>
         </Row>
