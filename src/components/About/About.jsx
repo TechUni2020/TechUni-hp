@@ -26,7 +26,7 @@ function About() {
                 src="/assets/TechUni.svg"
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "150px" }}
+                style={{ maxHeight: "110px" }}
               /></td>
             </tr>
             <tr>
