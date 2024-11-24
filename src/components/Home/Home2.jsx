@@ -42,7 +42,7 @@ function Home2() {
               src="/assets/TechUni.svg"
               alt="home pic"
               className="img-fluid"
-              style={{ height: "70%", objectFit: "contain"}}
+              style={{ height: "45%", objectFit: "contain"}}
             />
           </Col>
         </Row>
