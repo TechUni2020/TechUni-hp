@@ -2,14 +2,14 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { AiFillGithub, AiOutlineTwitter, } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
-import homeLogo from "../../assets/TechUni.svg";
+import { MdMailOutline } from "react-icons/md";
 import LogoSlider from "./LogoSlider";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
+        <Row className="home-about-row">
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.5em" }}>
               Tech.Uniとは？？
@@ -27,7 +27,7 @@ function Home2() {
               現在
               &nbsp;
               <i>
-                <b className="purple">メンバー総数153名 企業提携社数11社 全国大会出場経験有り</b>
+                <b className="purple">メンバー総数193名 企業提携社数11社 全国大会出場経験有り</b>
               </i>
               &nbsp; と実績を積み重ねて
               <br />
@@ -39,10 +39,10 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <img
-              src={homeLogo}
+              src="/assets/TechUni.svg"
               alt="home pic"
               className="img-fluid"
-              style={{ maxHeight: "450px" }}
+              style={{ width: "80%", objectFit: "contain"}}
             />
           </Col>
         </Row>
@@ -51,7 +51,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1 className="text-dark">FIND US ON</h1>
             <p className="text-dark">
-              Feel free to <a href="mailto:contact@techuni.org"><span className="purple">connect</span></a> with us
+              Feel free to <a href="mailto:contact@techuni.org"><span className="purple">CONTACT</span></a> with us
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -82,6 +82,15 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:contact@techuni.org"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <MdMailOutline/>
                 </a>
               </li>
             </ul>

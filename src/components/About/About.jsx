@@ -3,7 +3,6 @@ import { Container, Table } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiFillInstagram, AiOutlineTwitter, } from "react-icons/ai";
 import { BiBookOpen } from "react-icons/bi";
-import homeLogo from "../../assets/TechUni.svg";
 
 function About() {
   return (
@@ -23,11 +22,11 @@ function About() {
             </tr>
             <tr>
               <td>ロゴ</td>
-              <td><img
-                src={homeLogo}
+              <td style={{ padding: "25px" }}><img
+                src="/assets/TechUni.svg"
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "150px" }}
+                style={{ height: "110px" }}
               /></td>
             </tr>
             <tr>
@@ -40,11 +39,15 @@ function About() {
             </tr>
             <tr>
               <td>代表</td>
-              <td>高橋 由 <br></br> (関西学院大学・工学部3年)</td>
+              <td>
+                岡 和寛 <br></br> (関西学院大学・工学部2年)
+              </td>
             </tr>
             <tr>
               <td>副代表</td>
-              <td>岡 和寛 <br></br> (関西学院大学・工学部2年)</td>
+              <td>
+                櫻井 絵理香 <br></br> (京都産業大学・情報理工学部2年)
+              </td>
             </tr>
             <tr>
               <td>活動内容</td>
@@ -52,7 +55,7 @@ function About() {
             </tr>
             <tr>
               <td>メンバー</td>
-              <td>約150名(2024年5月現在)</td>
+              <td>約190名(2024年10月現在)</td>
             </tr>
             <tr>
               <td>広報支援機構</td>
