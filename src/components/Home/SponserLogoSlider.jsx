@@ -8,11 +8,12 @@ import Kobe from "../../assets/Sponsor/kobe.png";
 import Mynavi from "../../assets/Sponsor/mynavi.png";
 import Paiza from "../../assets/Sponsor/paiza.png";
 import Web3Career from "../../assets/Sponsor/web3-career.png";
+import Stores from "../../assets/Sponsor/stores.png";
 import SponsorLogo from "../Sponsor/SponsorLogo";
 import SlideContainer from "./slider";
 
 function SponsorLogoSlider() {
-  const logos = [TripleFour, TechTrain, TrackJob, HackBar, Karabiner, Kobe, Mynavi, Paiza, Web3Career];
+  const logos = [TripleFour, TechTrain, TrackJob, HackBar, Karabiner, Kobe, Mynavi, Paiza, Web3Career, Stores];
   return (
     <>
       <SlideContainer
