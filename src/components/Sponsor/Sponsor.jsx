@@ -9,6 +9,7 @@ import Kobe from "../../assets/Sponsor/kobe.png";
 import Paiza from "../../assets/Sponsor/paiza.png";
 import Web3Career from "../../assets/Sponsor/web3-career.png";
 import Mynavi from "../../assets/Sponsor/mynavi.png";
+import Stores from "../../assets/Sponsor/STORES.png";
 import SponsorLogo from "./SponsorLogo";
 
 function Sponsor() {
@@ -58,6 +59,9 @@ function Sponsor() {
                             </Col>
                             <Col md={2}>
                                 <SponsorLogo logo={Mynavi} maxHeight="150px" marginBottom="50px"/>
+                            </Col>
+                            <Col md={2}>
+                                <SponsorLogo logo={Stores} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                         </Row>
                     </Container>
