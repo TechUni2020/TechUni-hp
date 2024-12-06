@@ -462,7 +462,7 @@ button:focus {
   animation: scroll 40s linear infinite;
 }
 .top-slider img {;
-  width: calc((100% - 50px * 7) / 7);
+  width: calc((100% - 50px * 8) / 8);
   object-fit: cover;
 }
 
@@ -473,7 +473,7 @@ button:focus {
   animation: scroll 40s linear infinite reverse;
 }
 .bottom-slider img {
-  width: calc((100% - 50px * 7) / 7);
+  width: calc((100% - 50px * 8) / 8);
   object-fit: cover;
 }
 
@@ -481,9 +481,9 @@ button:focus {
   0% {
     transform: translateX(0%);
   }
-  /* 一度に表示するロゴの数は7個なので、それを超える場合は超えた分(現在は2個)だけ余分に移動させる */
+  /* 一度に表示するロゴの数は8個なので、それを超える場合は超えた分(現在は2個)だけ余分に移動させる */
   100% {
-    transform: translateX(calc(-100% - ((100%) / 7) * 2));
+    transform: translateX(calc(-100% - ((100%) / 8) * 2));
   }
 }
 
