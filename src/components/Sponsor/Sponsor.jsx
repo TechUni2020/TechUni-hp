@@ -9,7 +9,7 @@ import Kobe from "../../assets/Sponsor/kobe.png";
 import Paiza from "../../assets/Sponsor/paiza.png";
 import Web3Career from "../../assets/Sponsor/web3-career.png";
 import Mynavi from "../../assets/Sponsor/mynavi.png";
-import Stores from "../../assets/Sponsor/stores.png";
+import Stores from "../../assets/Sponsor/STORES.png";
 import SponsorLogo from "./SponsorLogo";
 
 function Sponsor() {
