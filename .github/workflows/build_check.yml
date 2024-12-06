@@ -1,13 +1,18 @@
-name: Production Workflow
+name: Build Check
 
 on:
-  push:
-    branches: [ main ]
+  pull_request:
+    branches:
+      - develop
+    types:
+      - opened
+      - reopened
+      - synchronize
+  workflow_dispatch:
 
 jobs:
-  build:
+  build_check:
     runs-on: ubuntu-latest
-    environment: production
 
     strategy:
       matrix:
@@ -30,18 +35,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-      - name: create env file
-        run: |
-          touch .env
-          echo VITE_CMS_URL=${{ secrets.VITE_CMS_URL }} >> .env
       - name: install packages
         run: yarn install
       - name: build project
         run: yarn build
-      - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.3.5
-        with:
-          server: ${{ secrets.STAGING_SERVER }}
-          username: ${{ secrets.STAGING_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: "./dist/"
