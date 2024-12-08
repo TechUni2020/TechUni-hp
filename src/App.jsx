@@ -25,7 +25,9 @@ function App() {
             <div className="App" id={load ? "no-scroll" : "scroll"}>
                 <Navbar/>
                 <ScrollToTop/>
-                <Outlet/>
+                <main className="App-home">
+                    <Outlet/>
+                </main>
                 <Footer/>
             </div>
         </>
