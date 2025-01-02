@@ -45,36 +45,36 @@ function Sponsor() {
                     <Container style={{marginTop: 100, marginBottom: 200}}>
                         <Row style={{justifyContent: "center"}}>
                             <Col md={2}>
-                                <SponsorLogo logo={Karabiner} logoAlt={KarabinerAlt} maxHeight="150px" marginBottom="50px"/>
+                                <SponsorLogo name="Karabiner Technology Inc." logo={Karabiner} logoAlt={KarabinerAlt} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={Kobe} logoAlt={KobeAlt} maxHeight="150px" marginBottom="50px"/>
+                                <SponsorLogo name="Kobe Enginner's Lab" logo={Kobe} logoAlt={KobeAlt} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={Paiza} logoAlt={PaizaAlt} maxHeight="150px" marginBottom="50px"/>
+                                <SponsorLogo name="Paiza, Inc." logo={Paiza} logoAlt={PaizaAlt} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={TechTrain} logoAlt={TechTrainAlt} maxHeight="150px" marginBottom="50px"/>
+                                <SponsorLogo name="TechTrain" logo={TechTrain} logoAlt={TechTrainAlt} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={TrackJob} logoAlt={TrackJobAlt} maxHeight="150px" marginBottom="50px"/>
+                                <SponsorLogo name="TrackJob" logo={TrackJob} logoAlt={TrackJobAlt} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                         </Row>
                         <Row style={{justifyContent: "center"}}>
                             <Col md={2}>
-                                <SponsorLogo logo={Web3Career} logoAlt={Web3CareerAlt} maxHeight="150px" marginBottom="0px"/>
+                                <SponsorLogo name="Web3 Career" logo={Web3Career} logoAlt={Web3CareerAlt} maxHeight="150px" marginBottom="0px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={HackBar} logoAlt={HackBarAlt} maxHeight="150px" marginBottom="50px"/>
+                                <SponsorLogo name="HACK.BAR" logo={HackBar} logoAlt={HackBarAlt} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={TripleFour} logoAlt={TripleFourAlt} maxHeight="150px" marginBottom="50px"/>
+                                <SponsorLogo name="444 Inc." logo={TripleFour} logoAlt={TripleFourAlt} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={Mynavi} logoAlt={MynaviAlt} maxHeight="150px" marginBottom="50px"/>
+                                <SponsorLogo name="Mynavi Corporation" logo={Mynavi} logoAlt={MynaviAlt} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                             <Col md={2}>
-                                <SponsorLogo logo={Stores} logoAlt={StoresAlt} maxHeight="150px" marginBottom="50px"/>
+                                <SponsorLogo name="STORES, Inc." logo={Stores} logoAlt={StoresAlt} maxHeight="150px" marginBottom="50px"/>
                             </Col>
                         </Row>
                     </Container>
