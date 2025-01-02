@@ -9,7 +9,7 @@ function ProjectCards(props) {
     <Card className="project-card-view" >
       <picture>
         <source srcSet={props.imgPath} type="image/webp" />
-        <Card.Img variant="top" src={props.imgAltPath} alt={"Project Logo (" + props.title + ")"} />
+        <Card.Img variant="top" src={props.imgAltPath} alt={"Project logo (" + props.title + ")"} />
       </picture>
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
