@@ -6,11 +6,11 @@ import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
-import History2020 from "./components/History/2020/History";
-import History2021 from "./components/History/2021/History";
-import History2022 from "./components/History/2022/History";
-import History2023 from "./components/History/2023/History";
-import History2024 from "./components/History/2024/History";
+import History2020 from "./components/History/years/History2020";
+import History2021 from "./components/History/years/History2021";
+import History2022 from "./components/History/years/History2022";
+import History2023 from "./components/History/years/History2023";
+import History2024 from "./components/History/years/History2024";
 import Sponsor from "./components/Sponsor/Sponsor";
 
 ReactDOM.render(

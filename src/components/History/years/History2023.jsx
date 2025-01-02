@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Table } from "react-bootstrap";
 
-function History() {
+function History2023() {
   return (
     <Container fluid className="about-section">
       <Container>
@@ -100,4 +100,4 @@ function History() {
   );
 }
 
-export default History;
+export default History2023;

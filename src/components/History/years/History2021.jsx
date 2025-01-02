@@ -1,15 +1,15 @@
 import React from "react";
 import { Container, Table } from "react-bootstrap";
 
-function History() {
+function History2021() {
   return (
     <Container fluid className="about-section">
       <Container>
       <h1 className="project-heading">
-          Our <strong className="purple">History in 2022</strong>
+          Our <strong className="purple">History in 2021</strong>
         </h1>
         <p style={{ color: "black" }}>
-        Here are  history of 「Tech.Uni」 and its activities in 2022
+        Here are  history of 「Tech.Uni」 and its activities in 2021
         </p>
           <Table striped bordered hover>
             <tbody>
@@ -100,4 +100,4 @@ function History() {
   );
 }
 
-export default History;
+export default History2021;
