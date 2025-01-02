@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import TechTrain from "../../assets/Sponsor/TechBowl.png";
-import TripleFour from "../../assets/Sponsor/TripleFour.png";
-import TrackJob from "../../assets/Sponsor/TrackJob.png";
-import HackBar from "../../assets/Sponsor/hackbar.png";
-import Karabiner from "../../assets/Sponsor/karabiner.png";
-import Kobe from "../../assets/Sponsor/kobe.png";
-import Paiza from "../../assets/Sponsor/paiza.png";
-import Web3Career from "../../assets/Sponsor/web3-career.png";
-import Mynavi from "../../assets/Sponsor/mynavi.png";
-import Stores from "../../assets/Sponsor/STORES.png";
+import TechTrain from "../../assets/Sponsor/TechBowl.webp";
+import TripleFour from "../../assets/Sponsor/TripleFour.webp";
+import TrackJob from "../../assets/Sponsor/TrackJob.webp";
+import HackBar from "../../assets/Sponsor/hackbar.webp";
+import Karabiner from "../../assets/Sponsor/karabiner.webp";
+import Kobe from "../../assets/Sponsor/kobe.webp";
+import Paiza from "../../assets/Sponsor/paiza.webp";
+import Web3Career from "../../assets/Sponsor/web3-career.webp";
+import Mynavi from "../../assets/Sponsor/mynavi.webp";
+import Stores from "../../assets/Sponsor/STORES.webp";
 import SponsorLogo from "./SponsorLogo";
 
 function Sponsor() {
