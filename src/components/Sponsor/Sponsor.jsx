@@ -1,16 +1,29 @@
-import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
-import TechTrain from "../../assets/Sponsor/TechBowl.png";
-import TripleFour from "../../assets/Sponsor/TripleFour.png";
-import TrackJob from "../../assets/Sponsor/TrackJob.png";
-import HackBar from "../../assets/Sponsor/hackbar.png";
-import Karabiner from "../../assets/Sponsor/karabiner.png";
-import Kobe from "../../assets/Sponsor/kobe.png";
-import Paiza from "../../assets/Sponsor/paiza.png";
-import Web3Career from "../../assets/Sponsor/web3-career.png";
-import Mynavi from "../../assets/Sponsor/mynavi.png";
-import Stores from "../../assets/Sponsor/STORES.png";
+import React, { useEffect, useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import SponsorLogo from "./SponsorLogo";
+
+import TechTrain from "../../assets/Sponsor/TechBowl.webp";
+import TripleFour from "../../assets/Sponsor/TripleFour.webp";
+import TrackJob from "../../assets/Sponsor/TrackJob.webp";
+import HackBar from "../../assets/Sponsor/hackbar.webp";
+import Karabiner from "../../assets/Sponsor/karabiner.webp";
+import Kobe from "../../assets/Sponsor/kobe.webp";
+import Paiza from "../../assets/Sponsor/paiza.webp";
+import Web3Career from "../../assets/Sponsor/web3-career.webp";
+import Mynavi from "../../assets/Sponsor/mynavi.webp";
+import Stores from "../../assets/Sponsor/STORES.webp";
+
+import TechTrainAlt from "../../assets/Sponsor/TechBowl.png";
+import TripleFourAlt from "../../assets/Sponsor/TripleFour.png";
+import TrackJobAlt from "../../assets/Sponsor/TrackJob.png";
+import HackBarAlt from "../../assets/Sponsor/hackbar.png";
+import KarabinerAlt from "../../assets/Sponsor/karabiner.png";
+import KobeAlt from "../../assets/Sponsor/kobe.png";
+import PaizaAlt from "../../assets/Sponsor/paiza.png";
+import Web3CareerAlt from "../../assets/Sponsor/web3-career.png";
+import MynaviAlt from "../../assets/Sponsor/mynavi.png";
+import StoresAlt from "../../assets/Sponsor/STORES.png";
+
 
 function Sponsor() {
   return (
@@ -26,36 +39,36 @@ function Sponsor() {
               <Container style={{marginTop: 50}}>
                 <Row style={{justifyContent: "center"}}>
                   <Col md={2}>
-                    <SponsorLogo logo={Karabiner} maxHeight="150px" marginBottom="50px"/>
+                    <SponsorLogo logo={Karabiner} logoAlt={KarabinerAlt} maxHeight="150px" marginBottom="50px"/>
                   </Col>
                   <Col md={2}>
-                    <SponsorLogo logo={Kobe} maxHeight="150px" marginBottom="50px"/>
+                    <SponsorLogo logo={Kobe} logoAlt={KobeAlt} maxHeight="150px" marginBottom="50px"/>
                   </Col>
                   <Col md={2}>
-                    <SponsorLogo logo={Paiza} maxHeight="150px" marginBottom="50px"/>
+                    <SponsorLogo logo={Paiza} logoAlt={PaizaAlt} maxHeight="150px" marginBottom="50px"/>
                   </Col>
                   <Col md={2}>
-                    <SponsorLogo logo={TechTrain} maxHeight="150px" marginBottom="50px"/>
+                    <SponsorLogo logo={TechTrain} logoAlt={TechTrainAlt} maxHeight="150px" marginBottom="50px"/>
                   </Col>
                   <Col md={2}>
-                    <SponsorLogo logo={TrackJob} maxHeight="150px" marginBottom="50px"/>
+                    <SponsorLogo logo={TrackJob} logoAlt={TrackJobAlt} maxHeight="150px" marginBottom="50px"/>
                   </Col>
                 </Row>
                 <Row style={{justifyContent: "center"}}>
                   <Col md={2}>
-                    <SponsorLogo logo={Web3Career} maxHeight="150px" marginBottom="0px"/>
+                    <SponsorLogo logo={Web3Career} logoAlt={Web3CareerAlt} maxHeight="150px" marginBottom="0px"/>
                   </Col>
                   <Col md={2}>
-                    <SponsorLogo logo={HackBar} maxHeight="150px" marginBottom="50px"/>
+                    <SponsorLogo logo={HackBar} logoAlt={HackBarAlt} maxHeight="150px" marginBottom="50px"/>
                   </Col>
                   <Col md={2}>
-                    <SponsorLogo logo={TripleFour} maxHeight="150px" marginBottom="50px"/>
+                    <SponsorLogo logo={TripleFour} logoAlt={TripleFourAlt} maxHeight="150px" marginBottom="50px"/>
                   </Col>
                   <Col md={2}>
-                    <SponsorLogo logo={Mynavi} maxHeight="150px" marginBottom="50px"/>
+                    <SponsorLogo logo={Mynavi} logoAlt={MynaviAlt} maxHeight="150px" marginBottom="50px"/>
                   </Col>
                   <Col md={2}>
-                    <SponsorLogo logo={Stores} maxHeight="150px" marginBottom="50px"/>
+                    <SponsorLogo logo={Stores} logoAlt={StoresAlt} maxHeight="150px" marginBottom="50px"/>
                   </Col>
                 </Row>
               </Container>

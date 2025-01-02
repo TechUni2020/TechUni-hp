@@ -2,11 +2,15 @@ import React from "react";
 
 function SponsorLogo(props) {
   return (
-        <img
-                src={props.logo}
+        <picture>
+            <source srcSet={props.logo} type="image/webp"/>
+            <img
+                src={props.logoAlt}
                 alt="Sponsor pic"
                 className="img-fluid"
-                />
+                style={{maxHeight: props.maxHeight, marginBottom: props.marginBottom}}
+            />
+        </picture>
   );
 }
 
