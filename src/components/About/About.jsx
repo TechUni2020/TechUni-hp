@@ -99,6 +99,9 @@ function About() {
         <Button variant="enroll" href="/history/2023">
           <BiBookOpen /> &nbsp;2023年度
         </Button>
+        <Button variant="enroll" href="/history/2024">
+          <BiBookOpen /> &nbsp;2024年度
+        </Button>
       </Container>
     </Container>
   );
