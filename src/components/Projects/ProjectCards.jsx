@@ -7,7 +7,10 @@ import Badge from "../Badge";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view" >
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <picture>
+        <source srcSet={props.imgPath} type="image/webp" />
+        <Card.Img variant="top" src={props.imgAltPath} alt={"Project Logo (" + props.title + ")"} />
+      </picture>
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
