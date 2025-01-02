@@ -1,18 +1,18 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
-import AROOMS from "../../assets/Projects/AROOMS.jpg";
-import Cafe from "../../assets/Projects/Cafe.png";
-import Codepick from "../../assets/Projects/Codepick.png";
-import FeverMonitor from "../../assets/Projects/FeverMonitor.png";
-import Itimai from "../../assets/Projects/Itimai.jpg";
-import OldLens from "../../assets/Projects/OldLens.png";
-import Online from "../../assets/Projects/Online.png";
-import ProTain from "../../assets/Projects/ProTain.png";
-import ProTask from "../../assets/Projects/ProTask.png";
-import SubsManager from "../../assets/Projects/SubsManager.png";
-import TechBoard from "../../assets/Projects/TechBoard.png";
-import TechInterview from "../../assets/Projects/TechInterview.png";
-import TechUni from "../../assets/Projects/TechUniBanner.png";
+import { Col, Container, Row } from "react-bootstrap";
+import AROOMS from "../../assets/Projects/AROOMS.webp";
+import Cafe from "../../assets/Projects/Cafe.webp";
+import Codepick from "../../assets/Projects/Codepick.webp";
+import FeverMonitor from "../../assets/Projects/FeverMonitor.webp";
+import Itimai from "../../assets/Projects/Itimai.webp";
+import OldLens from "../../assets/Projects/OldLens.webp";
+import Online from "../../assets/Projects/Online.webp";
+import ProTain from "../../assets/Projects/ProTain.webp";
+import ProTask from "../../assets/Projects/ProTask.webp";
+import SubsManager from "../../assets/Projects/SubsManager.webp";
+import TechBoard from "../../assets/Projects/TechBoard.webp";
+import TechInterview from "../../assets/Projects/TechInterview.webp";
+import TechUni from "../../assets/Projects/TechUniBanner.webp";
 import ProjectCard from "./ProjectCards";
 
 function Projects() {
