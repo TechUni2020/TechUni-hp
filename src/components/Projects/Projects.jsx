@@ -1,5 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import ProjectCard from "./ProjectCards";
+
 import AROOMS from "../../assets/Projects/AROOMS.webp";
 import Cafe from "../../assets/Projects/Cafe.webp";
 import Codepick from "../../assets/Projects/Codepick.webp";
@@ -13,7 +15,21 @@ import SubsManager from "../../assets/Projects/SubsManager.webp";
 import TechBoard from "../../assets/Projects/TechBoard.webp";
 import TechInterview from "../../assets/Projects/TechInterview.webp";
 import TechUni from "../../assets/Projects/TechUniBanner.webp";
-import ProjectCard from "./ProjectCards";
+
+import AROOMSAlt from "../../assets/Projects/AROOMS.jpg";
+import CafeAlt from "../../assets/Projects/Cafe.png";
+import CodepickAlt from "../../assets/Projects/Codepick.png";
+import FeverMonitorAlt from "../../assets/Projects/FeverMonitor.png";
+import ItimaiAlt from "../../assets/Projects/Itimai.jpg";
+import OldLensAlt from "../../assets/Projects/OldLens.png";
+import OnlineAlt from "../../assets/Projects/Online.png";
+import ProTainAlt from "../../assets/Projects/ProTain.png";
+import ProTaskAlt from "../../assets/Projects/ProTask.png";
+import SubsManagerAlt from "../../assets/Projects/SubsManager.png";
+import TechBoardAlt from "../../assets/Projects/TechBoard.png";
+import TechInterviewAlt from "../../assets/Projects/TechInterview.png";
+import TechUniAlt from "../../assets/Projects/TechUniBanner.png";
+
 
 
 function Projects() {
@@ -30,6 +46,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TechUni}
+              imgAltPath={TechUniAlt}
               isCode={true}
               title="Tech.Uni Webサイト"
               description="IT系学生団体Tech.Uniのホームページ。メンバーとのチーム開発で日々アップデートを行う予定です"
@@ -43,6 +60,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ProTask}
+              imgAltPath={ProTaskAlt}
               isCode={false}
               title="ProTask"
               description="Lunaでの課題管理に不安や不満を持ち一ヶ月で開発。 リリース1ヶ月で1,000人ユーザーが利用を開始。 現在利用者数は3,500人を超える。"
@@ -57,6 +75,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ProTain}
+              imgAltPath={ProTainAlt}
               isCode={false}
               title="ProTain"
               description="近年新型コロナウイルス蔓延により「筋トレ」が流行した。 そこでTwitterやInstagramではなく筋トレに焦点を当てたSNS、いわば情報共有の場・モチベーション維持を支援するSNSアプリが欲しいと考え一ヶ月で開発。"
@@ -70,6 +89,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TechInterview}
+              imgAltPath={TechInterviewAlt}
               isCode={true}
               title="Tech.面接"
               description="2021年JPHacksにてAward進出を果たし、クラスメソッド賞を獲得。AIによる表情認識/音声認識を用いて面接練習の効率化/アップデートを図る"
@@ -84,6 +104,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={FeverMonitor}
+              imgAltPath={FeverMonitorAlt}
               isCode={false}
               title="FeverMonitor"
               description="体温の変化をより視覚的に表示したり、設定された時間に体温を計測するようにお知らせします。ヘルスケアアプリと連携して簡単に体温を記録できます。"
@@ -97,6 +118,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={SubsManager}
+              imgAltPath={SubsManagerAlt}
               isCode={false}
               title="SubsManager"
               description="煩雑になりがちなサブスクリプション管理をよりスマートに。指定された日時にお支払日や料金をお知らせします。"
@@ -110,6 +132,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TechBoard}
+              imgAltPath={TechBoardAlt}
               isCode={false}
               title="Tech.Board"
               description="オンラインホワイトボードwebアプリ。Tech.Uni内で使用できるツールとして開発。"
@@ -124,6 +147,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Codepick}
+              imgAltPath={CodepickAlt}
               isCode={false}
               title="Codepick"
               description="プログラミングソースコード売買プラットフォーム
@@ -140,6 +164,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Cafe}
+              imgAltPath={CafeAlt}
               isCode={false}
               title="カフェの時間"
               description="カフェ好きのためのSNS、お店検索、カフェマップなどの機能があります。"
@@ -154,6 +179,7 @@ function Projects() {
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Vividstudio}
+              imgAltPath={VividstudioAlt}
               isCode={true}
               title="vividstudio"
               description="会議ツール(web , モバイルを兼用可能)"
@@ -168,6 +194,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={AROOMS}
+              imgAltPath={AROOMSAlt}
               isCode={false}
               title="関西の学院大学空き教室検索サイトAROOM"
               description="大学の空き教室を5秒で検索するサイト"
@@ -180,6 +207,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Itimai}
+              imgAltPath={ItimaiAlt}
               isCode={false}
               title="Itimai"
               description="見せたいけど見せたくない写真を共有するサイト"
@@ -192,6 +220,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={OldLens}
+              imgAltPath={OldLensAlt}
               isCode={true}
               title="オールドレンズの解析"
               description="Pythonを用いたオールドレンズのシミュレーションをして光学の理解を深めた。
@@ -211,6 +240,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Online}
+              imgAltPath={OnlineAlt}
               isCode={false}
               title="オンライン実行環境"
               description="環境構築なしでブラウザでプログラムを実行できます。"
