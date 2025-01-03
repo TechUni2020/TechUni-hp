@@ -20,31 +20,31 @@ function History2021() {
               正式アイコンが設定
             </HistoryColumn>
             <HistoryColumn>
-              プログラミング学習サービス CLOTO 様と提携
+              プログラミング学習サービス CLOTO 様と提携開始
             </HistoryColumn>
             <HistoryColumn date="2021.07">
-              ソフトバンクイノベンチャー株式会社 様と提携
+              ソフトバンクイノベンチャー株式会社 様と提携開始
             </HistoryColumn>
             <HistoryColumn date="2021.08">
-              株式会社Next Keyman 様と提携
+              株式会社Next Keyman 様と提携開始
             </HistoryColumn>
             <HistoryColumn date="2021.09">
               技育展に4チームが登壇
             </HistoryColumn>
             <HistoryColumn>
-              インド企業 Nova varsity 様と提携
+              インド企業 Nova varsity 様と提携開始
             </HistoryColumn>
             <HistoryColumn>
-              株式会社ギブリー 様と提携
+              株式会社ギブリー 様と提携開始
             </HistoryColumn>
             <HistoryColumn>
               Tech.Uni SummerHackathon 2021 開催
             </HistoryColumn>
             <HistoryColumn date="2021.10">
-              神戸市/神戸エンジニアラボ 様と提携
+              神戸市/神戸エンジニアラボ 様と提携開始
             </HistoryColumn>
             <HistoryColumn>
-              株式会社マイナビ 様と提携
+              株式会社マイナビ 様と提携開始
             </HistoryColumn>
             <HistoryColumn>
               日本最大級ハッカソン JPHacks に4チーム（計20名）が参加
