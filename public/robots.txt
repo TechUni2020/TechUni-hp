@@ -2,3 +2,5 @@
 User-agent: *
 Disallow: /blog/
 Disallow: /cdn-cgi/
+
+Sitemap: https://techuni.org/sitemap.txt
