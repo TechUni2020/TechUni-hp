@@ -11,12 +11,23 @@ function History(props) {
               <p style={{ color: "black" }}>
                 Here are history of「Tech.Uni」and its activities in {props.year}
               </p>
-              <Table striped bordered hover>
-                {props.children}
+              <Table striped bordered hover className="history-table">
+                <tbody>
+                  {props.children}
+                </tbody>
               </Table>
             </Container>
           </Container>
   );
 }
 
-export default History;
+function HistoryColumn(props) {
+  return (
+    <tr>
+      <td className="history-year">{props.date}</td>
+      <td>{props.children}</td>
+    </tr>
+  );
+}
+
+export {History, HistoryColumn};
