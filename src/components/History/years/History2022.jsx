@@ -1,18 +1,10 @@
 import React from "react";
-import {History, HistoryColumn} from "../History";
+import {EditingHistory} from "../History";
 
 function History2022() {
   // TODO: 内容
   return (
-
-          <History year="2022">
-            <HistoryColumn date="2022.04">
-              Test
-            </HistoryColumn>
-            <HistoryColumn date="2022.11">
-              オンラインでの活動場所をSlackからDiscordに移行
-            </HistoryColumn>
-          </History>
+          <EditingHistory year="2022"/>
   );
 }
 
