@@ -34,7 +34,7 @@ function Home() {
         <ButtonCard
           title="Welcome to us"
           aboutLink="/about"
-          enrollLink="https://forms.gle/D7rD5myoo6wDbfAD7">
+          enrollLink="https://link.techuni.org/form/admission">
         </ButtonCard>
       </Container>
       <Home2 />
