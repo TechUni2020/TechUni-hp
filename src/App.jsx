@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import React, { useEffect, useState } from "react";
-import { Outlet } from "react-router-dom";
+import React, {useEffect, useState} from "react";
+import {Outlet} from "react-router-dom";
 import Preloader from "../src/components/Pre";
 import "./App.css";
 import Footer from "./components/Footer";
@@ -9,27 +9,29 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 
 function App() {
-    const [load, uploadLoad] = useState(true);
+  const [load, uploadLoad] = useState(true);
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            uploadLoad(false);
-        }, 1000);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      uploadLoad(false);
+    }, 1000);
 
-        return () => clearTimeout(timer);
-    }, []);
+    return () => clearTimeout(timer);
+  }, []);
 
-    return (
-        <>
+  return (
+          <>
             <Preloader load={load}/>
             <div className="App" id={load ? "no-scroll" : "scroll"}>
-                <Navbar/>
-                <ScrollToTop/>
+              <Navbar/>
+              <ScrollToTop/>
+              <main>
                 <Outlet/>
-                <Footer/>
+              </main>
+              <Footer/>
             </div>
-        </>
-    );
+          </>
+  );
 }
 
 export default App;
