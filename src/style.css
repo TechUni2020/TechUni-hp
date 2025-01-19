@@ -22,6 +22,16 @@ button:focus {
   box-shadow: none !important;
 }
 
+main {
+  display: flex;
+  width: 100vw;
+}
+
+section {
+  width: 100%;
+  flex-grow: 1;
+}
+
 /* --------- */
 /*  Preloader */
 /* --------- */
@@ -808,6 +818,7 @@ button:focus {
   background-image: var(--section-background-color) !important;
   color: white !important;
   background-color: #fafafa;
+  height: 100%;
 }
 
 .resume {

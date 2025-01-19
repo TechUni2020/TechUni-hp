@@ -23,9 +23,9 @@ ReactDOM.render(
                 <Route path="about" element={<About/>}/>
                 <Route path="history" element={<Home/>}/>
                 <Route path="history/*" element={(
-                        <div style={{flexGrow: 1}}>
+                        <section>
                           <Outlet/>
-                        </div>
+                        </section>
                 )}>
                   <Route path="2020" element={<History2020/>}/>
                   <Route path="2021" element={<History2021/>}/>
