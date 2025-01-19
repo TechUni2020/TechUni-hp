@@ -14,7 +14,7 @@ import SponsorLogo from "./SponsorLogo";
 
 function Sponsor() {
   return (
-          <div style={{width: "100vw"}}>
+          <section>
             <Container fluid className="resume-section">
               {/* <Particle /> */}
               <h1 className="project-heading">
@@ -60,7 +60,7 @@ function Sponsor() {
                 </Row>
               </Container>
             </Container>
-          </div>
+          </section>
   );
 }
 

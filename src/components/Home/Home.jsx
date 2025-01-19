@@ -8,7 +8,7 @@ import Type from "./Type";
 
 function Home() {
   return (
-          <section style={{width: "100vw"}}>
+          <section>
             <Container fluid className="home-section" id="home">
               <Particle/>
               <Container className="home-content">
