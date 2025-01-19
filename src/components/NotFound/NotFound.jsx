@@ -4,7 +4,7 @@ import React from "react";
 function NotFound() {
   return (
           <div>
-            <Container fluid className="resume-section">
+            <Container fluid className="resume-section" style={{width: "100vw"}}>
               <h1 className="notfound-heading">
                 <strong>Not Found.</strong>
               </h1>
