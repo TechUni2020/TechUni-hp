@@ -579,9 +579,11 @@ button:focus {
 /* --------- */
 .footer {
   background-color: rgb(10, 4, 22);
+  position: absolute;
   bottom: 0 !important;
+  min-height: 60px;
   padding-top: 10px !important;
-  padding-bottom: 8px !important;
+  padding-bottom: 10px !important;
   z-index: 3;
 }
 
@@ -725,6 +727,7 @@ button:focus {
 /* --------- */
 
 .about-section {
+  height: 100%;
   position: relative !important;
   padding-top: 100px !important;
   padding-bottom: 100px !important;
