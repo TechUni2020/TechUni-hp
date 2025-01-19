@@ -808,6 +808,7 @@ button:focus {
   background-image: var(--section-background-color) !important;
   color: white !important;
   background-color: #fafafa;
+  height: 100%;
 }
 
 .resume {

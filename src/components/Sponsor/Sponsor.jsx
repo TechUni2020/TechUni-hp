@@ -23,7 +23,7 @@ function Sponsor() {
               <p style={{color: "black"}}>
                 Here are about our Sponsor.
               </p>
-              <Container style={{marginTop: 100, marginBottom: 200}}>
+              <Container style={{marginTop: 50}}>
                 <Row style={{justifyContent: "center"}}>
                   <Col md={2}>
                     <SponsorLogo logo={Karabiner} maxHeight="150px" marginBottom="50px"/>
