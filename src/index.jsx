@@ -12,6 +12,7 @@ import History2022 from "./components/History/years/History2022";
 import History2023 from "./components/History/years/History2023";
 import History2024 from "./components/History/years/History2024";
 import Sponsor from "./components/Sponsor/Sponsor";
+import NotFound from "./components/NotFound/NotFound";
 
 ReactDOM.render(
         <React.StrictMode>
@@ -21,7 +22,7 @@ ReactDOM.render(
                 <Route index element={<Home/>}/>
                 <Route path="project" element={<Projects/>}/>
                 <Route path="about" element={<About/>}/>
-                <Route path="history" element={<Home/>}/>
+                <Route path="history" element={<NotFound/>}/> {/* ~/Historyは配置していない。 */}
                 <Route path="history/*" element={(
                         <section>
                           <Outlet/>
@@ -34,7 +35,7 @@ ReactDOM.render(
                   <Route path="2024" element={<History2024/>}/>
                 </Route>
                 <Route path="sponsor" element={<Sponsor/>}/>
-                <Route path="*" element={<Home/>}/>
+                <Route path="*" element={<NotFound/>}/>
               </Route>
             </Routes>
           </BrowserRouter>
