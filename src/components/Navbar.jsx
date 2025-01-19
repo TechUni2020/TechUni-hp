@@ -45,7 +45,7 @@ function NavBar() {
                 <span/>
                 <span/>
               </Navbar.Toggle>
-              <Navbar.Collapse id="responsive-navbar-nav">
+              <Navbar.Collapse id="responsive-navbar-nav" style={{marginRight: isMobile ? "auto" : "15%"}}>
                 <Nav className="ms-auto" defaultActiveKey="#home">
                   {(navColor || isMobile) && (
                           <>
