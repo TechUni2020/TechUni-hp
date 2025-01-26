@@ -43,12 +43,16 @@ function SponsorLogoSlider() {
       <div className="slider-container">
         <Marquee speed={30}>
           {logos.map((logo, index) => (
-            <SponsorLogo key={index} logo={logo[0]} logoAlt={logo[1]} name={logo[2]} />
+            <div className="sponsor-logo">
+              <SponsorLogo className="sponsor-logo" key={index} logo={logo[0]} logoAlt={logo[1]} name={logo[2]} />
+            </div>
           ))}
         </Marquee>
         <Marquee speed={30} direction="right">
           {logos.reverse().map((logo, index) => (
-            <SponsorLogo key={index} logo={logo[0]} logoAlt={logo[1]} name={logo[2]} />
+            <div className="sponsor-logo">
+              <SponsorLogo key={index} logo={logo[0]} logoAlt={logo[1]} name={logo[2]} />
+            </div>
           ))}
         </Marquee>
       </div>
