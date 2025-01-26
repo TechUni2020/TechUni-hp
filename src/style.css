@@ -456,13 +456,22 @@ section {
   align-items: center;
 }
 
+.sponsor-logo {
+    width: 150px;
+    margin: 0 30px;
+}
+
 /* -------- */
 /*  Slider */
 /* ------- */
 
 .slider-container {
   width: 100%;
+  height: 350px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .top-slider {
@@ -632,6 +641,13 @@ section {
   color: #a588c0 !important;
 }
 
+/* -------- */
+/*  Sponsor */
+/* ------- */
+.sponsor-container img picture {
+  width: 200px;
+  height: 200px;
+}
 /* --------- */
 /* Projects */
 /* --------- */
