@@ -428,17 +428,6 @@ button:focus {
 /* --------- */
 /* LogoSlider */
 /* --------- */
-.logo-slider-section {
-    flex-direction: column;
-    justify-content: center;
-    gap: 4rem;
-}
-@media (max-width: 767px) {
-    .logo-slider-section {
-        gap: 8rem;
-    }
-}
-
 .logo-slider-container {
     flex-direction: column;
     justify-content: center;
@@ -460,55 +449,6 @@ button:focus {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.top-slider {
-  display: flex;
-  margin-bottom: 50px;
-  gap: 50px;
-  width: fit-content;
-  animation: scroll 60s linear infinite;
-}
-.top-slider img {;
-  width: calc((100% - 50px * 6) / 6);
-  object-fit: cover;
-}
-
-.bottom-slider {
-  display: flex;
-  gap: 50px;
-  width: fit-content;
-  animation: scroll 60s linear infinite reverse;
-}
-.bottom-slider img {
-  width: calc((100% - 50px * 6) / 6);
-  object-fit: cover;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0%);
-  }
-  /* 一度に表示するロゴの数は6個なので、それを超える場合は超えた分(現在は4個)だけ余分に移動させる */
-  /* ロゴ追加時は合計ロゴ数-6を*(数字)のところにいれる e.g. 10個のとき) transform: translateX(calc(-100% - ((100%) / 6) * 4));  */
-  100% {
-    transform: translateX(calc(-100% - ((100%) / 6) * 4));
-  }
-}
-
-.slider-container-ref{
-    display: none;
-}
-
-.slider-container-ref-enabled {
-    display: inline-block;
-}
-
-.slider-item {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
 }
 
 .sponsor-title {
