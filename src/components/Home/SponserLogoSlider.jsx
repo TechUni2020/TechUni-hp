@@ -1,6 +1,6 @@
 import React from "react";
 import SponsorLogo from "../Sponsor/SponsorLogo";
-import SlideContainer from "./slider";
+import Marquee from "react-fast-marquee";
 
 import TechTrain from "../../assets/Sponsor/TechBowl.webp";
 import TripleFour from "../../assets/Sponsor/TripleFour.webp";
@@ -40,14 +40,18 @@ function SponsorLogoSlider() {
 
   return (
     <>
-      <SlideContainer
-        top={[...logos, ...logos].map((logo, index) => (
-          <SponsorLogo key={index} logo={logo[0]} logoAlt={logo[1]} name={logo[2]} />
-        ))}
-        bottom={[...logos, ...logos].reverse().map((logo, index) => (
-          <SponsorLogo key={index} logo={logo[0]} logoAlt={logo[1]} name={logo[2]} />
-        ))}
-      />
+      <div className="slider-container">
+        <Marquee speed={30}>
+          {logos.map((logo, index) => (
+            <SponsorLogo key={index} logo={logo[0]} logoAlt={logo[1]} name={logo[2]} />
+          ))}
+        </Marquee>
+        <Marquee speed={30} direction="right">
+          {logos.reverse().map((logo, index) => (
+            <SponsorLogo key={index} logo={logo[0]} logoAlt={logo[1]} name={logo[2]} />
+          ))}
+        </Marquee>
+      </div>
     </>
   );
 }

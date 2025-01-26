@@ -456,13 +456,21 @@ section {
   align-items: center;
 }
 
+.sponsor-logo {
+    width: 150px;
+}
+
 /* -------- */
 /*  Slider */
 /* ------- */
 
 .slider-container {
   width: 100%;
+  height: 350px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .top-slider {
