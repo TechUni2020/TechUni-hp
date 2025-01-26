@@ -7,7 +7,7 @@ function SponsorLogo(props) {
             <img
                 src={props.logoAlt}
                 alt={"Sponsor's logo (" + props.name + ")"}
-                className="img-fluid"
+                className="img-fluid sponsor-logo"
                 style={{maxHeight: props.maxHeight, marginBottom: props.marginBottom}}
             />
         </picture>
