@@ -24,7 +24,7 @@ function About() {
                     <td>ロゴ</td>
                     <td style={{padding: "25px"}}><img
                             src="/assets/TechUni.svg"
-                            alt="home pic"
+                            alt="Tech.Uni logo"
                             className="img-fluid"
                             style={{height: "110px"}}
                     /></td>
