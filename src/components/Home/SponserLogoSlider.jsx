@@ -44,7 +44,7 @@ function SponsorLogoSlider() {
         <Marquee speed={30}>
           {logos.map((logo, index) => (
             <div className="sponsor-logo">
-              <SponsorLogo className="sponsor-logo" key={index} logo={logo[0]} logoAlt={logo[1]} name={logo[2]} />
+              <SponsorLogo key={index} logo={logo[0]} logoAlt={logo[1]} name={logo[2]} />
             </div>
           ))}
         </Marquee>
