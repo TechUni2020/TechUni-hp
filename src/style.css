@@ -346,6 +346,7 @@ section {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  flex-grow: 1;
 }
 
 .home-about-description {
@@ -457,8 +458,8 @@ section {
 }
 
 .sponsor-logo {
-    width: 150px;
-    margin: 0 30px;
+  width: 150px;
+  margin: 0 30px;
 }
 
 /* -------- */
@@ -648,6 +649,7 @@ section {
   width: 200px;
   height: 200px;
 }
+
 /* --------- */
 /* Projects */
 /* --------- */
