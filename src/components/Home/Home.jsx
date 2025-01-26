@@ -8,7 +8,7 @@ import Type from "./Type";
 
 function Home() {
   return (
-          <section>
+          <section style={{display: "flex", flexDirection: "column"}}>
             <Container fluid className="home-section" id="home">
               <Particle/>
               <Container className="home-content">
