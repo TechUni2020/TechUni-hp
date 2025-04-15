@@ -12,6 +12,7 @@ import Paiza from "../../assets/Sponsor/paiza.webp";
 import Web3Career from "../../assets/Sponsor/web3-career.webp";
 import Mynavi from "../../assets/Sponsor/mynavi.webp";
 import Stores from "../../assets/Sponsor/STORES.webp";
+import GeekProject from "../../assets/Sponsor/geek-project.webp";
 
 import TechTrainAlt from "../../assets/Sponsor/TechBowl.png";
 import TripleFourAlt from "../../assets/Sponsor/TripleFour.png";
@@ -23,6 +24,7 @@ import PaizaAlt from "../../assets/Sponsor/paiza.png";
 import Web3CareerAlt from "../../assets/Sponsor/web3-career.png";
 import MynaviAlt from "../../assets/Sponsor/mynavi.png";
 import StoresAlt from "../../assets/Sponsor/STORES.png";
+import GeekProjectAlt from "../../assets/Sponsor/geek-project.png";
 
 function Sponsor() {
   return (
@@ -72,6 +74,9 @@ function Sponsor() {
                   </Col>
                   <Col md={2}>
                     <SponsorLogo name="STORES, Inc." logo={Stores} logoAlt={StoresAlt}/>
+                  </Col>
+                  <Col md={2}>
+                    <SponsorLogo name="Geek Project" logo={GeekProject} logoAlt={GeekProjectAlt}/>
                   </Col>
                 </Row>
               </Container>
