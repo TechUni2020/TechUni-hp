@@ -13,6 +13,7 @@ import Web3Career from "../../assets/Sponsor/web3-career.webp";
 import Mynavi from "../../assets/Sponsor/mynavi.webp";
 import Stores from "../../assets/Sponsor/STORES.webp";
 import GeekProject from "../../assets/Sponsor/geek-project.webp";
+import Future from "../../assets/Sponsor/future.webp";
 
 import TechTrainAlt from "../../assets/Sponsor/TechBowl.png";
 import TripleFourAlt from "../../assets/Sponsor/TripleFour.png";
@@ -25,6 +26,7 @@ import Web3CareerAlt from "../../assets/Sponsor/web3-career.png";
 import MynaviAlt from "../../assets/Sponsor/mynavi.png";
 import StoresAlt from "../../assets/Sponsor/STORES.png";
 import GeekProjectAlt from "../../assets/Sponsor/geek-project.png";
+import FutureAlt from "../../assets/Sponsor/future.png";
 
 function Sponsor() {
   return (
@@ -52,8 +54,6 @@ function Sponsor() {
                   <Col md={2}>
                     <SponsorLogo name="TrackJob" logo={TrackJob} logoAlt={TrackJobAlt}/>
                   </Col>
-                </Row>
-                <Row style={{justifyContent: "center"}}>
                   <Col md={2}>
                     <SponsorLogo
                             name="Web3 Career"
@@ -63,6 +63,8 @@ function Sponsor() {
                             marginBottom="0px"
                     />
                   </Col>
+                </Row>
+                <Row style={{justifyContent: "center"}}>
                   <Col md={2}>
                     <SponsorLogo name="HACK.BAR" logo={HackBar} logoAlt={HackBarAlt}/>
                   </Col>
@@ -77,6 +79,9 @@ function Sponsor() {
                   </Col>
                   <Col md={2}>
                     <SponsorLogo name="Geek Project" logo={GeekProject} logoAlt={GeekProjectAlt}/>
+                  </Col>
+                  <Col md={2}>
+                    <SponsorLogo name="Future Corporation" logo={Future} logoAlt={FutureAlt}/>
                   </Col>
                 </Row>
               </Container>
