@@ -13,6 +13,7 @@ import Paiza from "../../assets/Sponsor/paiza.webp";
 import Web3Career from "../../assets/Sponsor/web3-career.webp";
 import Stores from "../../assets/Sponsor/STORES.webp";
 import GeekProject from "../../assets/Sponsor/geek-project.webp";
+import Future from "../../assets/Sponsor/future.webp";
 
 import TechTrainAlt from "../../assets/Sponsor/TechBowl.png";
 import TripleFourAlt from "../../assets/Sponsor/TripleFour.png";
@@ -25,6 +26,7 @@ import Web3CareerAlt from "../../assets/Sponsor/web3-career.png";
 import MynaviAlt from "../../assets/Sponsor/mynavi.png";
 import StoresAlt from "../../assets/Sponsor/STORES.png";
 import GeekProjectAlt from "../../assets/Sponsor/geek-project.png";
+import FutureAlt from "../../assets/Sponsor/future.png";
 
 function SponsorLogoSlider() {
   const logos = [
@@ -38,7 +40,8 @@ function SponsorLogoSlider() {
     [Paiza, PaizaAlt, "Paiza, Inc."],
     [Web3Career, Web3CareerAlt, "Web3 Career"],
     [Stores, StoresAlt, "STORES, Inc."],
-    [GeekProject, GeekProjectAlt, "Geek Project"]
+    [GeekProject, GeekProjectAlt, "Geek Project"],
+    [Future, FutureAlt, "Future Corporation"],
   ]
 
   return (
