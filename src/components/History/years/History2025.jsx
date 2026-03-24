@@ -43,6 +43,9 @@ function History2025() {
             <HistoryColumn date="2026.03">
                 スプリング交流会 2026 開催
             </HistoryColumn>
+            <HistoryColumn>
+                関西学院大学後援会通信に掲載
+            </HistoryColumn>
         </History>
     );
 }
