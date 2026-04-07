@@ -44,12 +44,7 @@ function About() {
                     </td>
                   </tr>
                   <tr>
-                    <td rowSpan={2}>副代表</td>
-                    <td>
-                      高田 晶玲 <br></br> (関西学院大学・総合政策学部2年)
-                    </td>
-                  </tr>
-                  <tr>
+                    <td>副代表</td>
                     <td>
                       滝口 光希 <br></br> (近畿大学・情報学部2年)
                     </td>
