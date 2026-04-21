@@ -40,18 +40,13 @@ function About() {
                   <tr>
                     <td>代表</td>
                     <td>
-                      酒井 涼雅 <br></br> (関西学院大学・工学部1年)
+                      酒井 涼雅 <br></br> (関西学院大学・工学部2年)
                     </td>
                   </tr>
                   <tr>
-                    <td rowSpan={2}>副代表</td>
+                    <td>副代表</td>
                     <td>
-                      高田 晶玲 <br></br> (関西学院大学・総合政策学部2年)
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      滝口 光希 <br></br> (近畿大学・情報学部2年)
+                      滝口 光希 <br></br> (近畿大学・情報学部3年)
                     </td>
                   </tr>
                   <tr>
@@ -60,7 +55,7 @@ function About() {
                   </tr>
                   <tr>
                     <td>メンバー</td>
-                    <td>約200名(2025年10月現在)</td>
+                    <td>約200名(2026年4月現在)</td>
                   </tr>
                   <tr>
                     <td>広報支援機構</td>
@@ -106,6 +101,9 @@ function About() {
               </Button>
               <Button variant="enroll" href="/history/2024">
                 <BiBookOpen/> &nbsp;2024年度
+              </Button>
+              <Button variant="enroll" href="/history/2025">
+                <BiBookOpen/> &nbsp;2025年度
               </Button>
             </Container>
           </Container>

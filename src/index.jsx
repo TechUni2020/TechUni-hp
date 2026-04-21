@@ -11,6 +11,7 @@ import History2021 from "./components/History/years/History2021";
 import History2022 from "./components/History/years/History2022";
 import History2023 from "./components/History/years/History2023";
 import History2024 from "./components/History/years/History2024";
+import History2025 from "./components/History/years/History2025";
 import Sponsor from "./components/Sponsor/Sponsor";
 import NotFound from "./components/NotFound/NotFound";
 
@@ -31,6 +32,7 @@ ReactDOM.render(
                   <Route path="2022" element={<History2022/>}/>
                   <Route path="2023" element={<History2023/>}/>
                   <Route path="2024" element={<History2024/>}/>
+                  <Route path="2025" element={<History2025/>}/>
                   <Route path="*" element={<NotFound/>}/>
                 </Route>
                 <Route path="sponsor" element={<Sponsor/>}/>
